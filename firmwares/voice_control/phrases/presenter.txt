@@ -1,0 +1,22 @@
+# The presenter demo's phrases: while the demo is open, the recogniser listens harder for these words and
+# sentences. One word or sentence per line; a line starting with # is a note. At most 10 words and 10 sentences.
+slide
+slides
+presentation
+timer
+zoom
+screen
+previous
+blank
+page
+first
+next slide
+previous slide
+first slide
+last slide
+start the timer
+end the presentation
+start the presentation
+black screen
+go to slide
+show the slides

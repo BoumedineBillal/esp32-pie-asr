@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2026 Boumedine Billal
+# SPDX-License-Identifier: Apache-2.0
+
+menu "live_transcriber"
+
+    config LIVE_TRANSCRIBER_DEBUG_LINK
+        bool "Debug link over USB High-Speed"
+        default n
+        help
+            The PC's commands, the log, the final words and screenshots over the board's USB High-Speed port
+            (WinUSB on the PC), and the weights from the PC when the SD card has none. The tests in debug/tests
+            need it. sdkconfig.debug turns it on; a release build leaves it off.
+
+endmenu

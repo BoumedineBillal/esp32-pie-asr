@@ -1,0 +1,22 @@
+# The factory line demo's phrases: while the demo is open, the recogniser listens harder for these words and
+# sentences. One word or sentence per line; a line starting with # is a note. At most 10 words and 10 sentences.
+stop
+start
+conveyor
+station
+press
+packer
+switch
+emergency
+reset
+alarm
+emergency stop
+stop everything
+start the line
+stop the line
+reset the alarm
+reset the emergency stop
+speed up the line
+switch to blue boxes
+start the packer
+restart the conveyor

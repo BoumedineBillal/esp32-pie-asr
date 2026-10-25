@@ -1,0 +1,1320 @@
+{
+ "clips": [
+  {
+   "id": "en_GB_alan_medium_00",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Set the temperature to twenty one degrees.",
+   "expect": "set_temperature:temperature=21"
+  },
+  {
+   "id": "en_GB_alan_medium_01",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Make it warmer.",
+   "expect": "warmer"
+  },
+  {
+   "id": "en_GB_alan_medium_02",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Turn the fan up.",
+   "expect": "fan_up:fan"
+  },
+  {
+   "id": "en_GB_alan_medium_03",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Set the fan to three.",
+   "expect": "set_fan:fan=3"
+  },
+  {
+   "id": "en_GB_alan_medium_04",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Open the windows.",
+   "expect": "windows_open:windows"
+  },
+  {
+   "id": "en_GB_alan_medium_05",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Roll down the driver's window.",
+   "expect": "windows_open:window@driver"
+  },
+  {
+   "id": "en_GB_alan_medium_06",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Close the rear windows.",
+   "expect": "windows_close:windows@rear"
+  },
+  {
+   "id": "en_GB_alan_medium_07",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Windows up.",
+   "expect": "windows_close:windows"
+  },
+  {
+   "id": "en_GB_alan_medium_08",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Heat my seat.",
+   "expect": "seat_heat_on:seat"
+  },
+  {
+   "id": "en_GB_alan_medium_09",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Turn on the passenger seat heater.",
+   "expect": "seat_heat_on:seat heater@passenger"
+  },
+  {
+   "id": "en_GB_alan_medium_10",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Defrost the windscreen.",
+   "expect": "defrost:windscreen"
+  },
+  {
+   "id": "en_GB_alan_medium_11",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Navigate home.",
+   "expect": "navigate:home"
+  },
+  {
+   "id": "en_GB_alan_medium_12",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Take me to the airport.",
+   "expect": "navigate:the airport"
+  },
+  {
+   "id": "en_GB_alan_medium_13",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Navigate to the nearest charger.",
+   "expect": "navigate:nearest charger"
+  },
+  {
+   "id": "en_GB_alan_medium_14",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Cancel the route.",
+   "expect": "stop_navigation"
+  },
+  {
+   "id": "en_GB_alan_medium_15",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Play the radio.",
+   "expect": "play:the radio"
+  },
+  {
+   "id": "en_GB_alan_medium_16",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Pause the music.",
+   "expect": "pause:music"
+  },
+  {
+   "id": "en_GB_alan_medium_17",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Next song.",
+   "expect": "next_track"
+  },
+  {
+   "id": "en_GB_alan_medium_18",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Turn up the volume.",
+   "expect": "volume_up:volume"
+  },
+  {
+   "id": "en_GB_alan_medium_19",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Turn on the headlights.",
+   "expect": "lights_on:headlights"
+  },
+  {
+   "id": "en_GB_alan_medium_20",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "How much range do I have?",
+   "expect": "range"
+  },
+  {
+   "id": "en_GB_alan_medium_21",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Set the temperature to twenty one degrees and open the windows.",
+   "expect": "set_temperature:temperature=21; windows_open:windows"
+  },
+  {
+   "id": "en_GB_alan_medium_22",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Open the front windows but not the rear.",
+   "expect": "windows_open:windows@front; -windows_open:windows@rear"
+  },
+  {
+   "id": "en_GB_alan_medium_23",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Navigate to work and play the news.",
+   "expect": "navigate:work; play:the news"
+  },
+  {
+   "id": "en_GB_alan_medium_24",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Turn off the seat heating.",
+   "expect": "seat_heat_off:seat heating"
+  },
+  {
+   "id": "en_GB_alan_medium_25",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The windows were open all night.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_26",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "I left my seat at the cinema.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_27",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The temperature dropped to five degrees.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_28",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "My home is near the airport.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_29",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The radio said it would rain.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_30",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "We should open the windows later.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_31",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "That song was great.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_32",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The fan in my office is broken.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_33",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The headlights on that truck are bright.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_34",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "He drove to work yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_35",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Navigation apps use a lot of data.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_36",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The music in the cafe was nice.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_37",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "My seat on the plane was comfortable.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_38",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Turn right at the roundabout.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_39",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The airport is very busy today.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_40",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "I have to charge my phone.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_41",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The windscreen of the bus is cracked.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_42",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Podcasts are fun to listen to.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_43",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The volume of traffic is high.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_44",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "She heats the soup every evening.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_45",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "I need some fresh air.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_46",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Rear seats are for children.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_00",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Set the temperature to twenty one degrees.",
+   "expect": "set_temperature:temperature=21"
+  },
+  {
+   "id": "en_US_amy_medium_01",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Make it warmer.",
+   "expect": "warmer"
+  },
+  {
+   "id": "en_US_amy_medium_02",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Turn the fan up.",
+   "expect": "fan_up:fan"
+  },
+  {
+   "id": "en_US_amy_medium_03",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Set the fan to three.",
+   "expect": "set_fan:fan=3"
+  },
+  {
+   "id": "en_US_amy_medium_04",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Open the windows.",
+   "expect": "windows_open:windows"
+  },
+  {
+   "id": "en_US_amy_medium_05",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Roll down the driver's window.",
+   "expect": "windows_open:window@driver"
+  },
+  {
+   "id": "en_US_amy_medium_06",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Close the rear windows.",
+   "expect": "windows_close:windows@rear"
+  },
+  {
+   "id": "en_US_amy_medium_07",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Windows up.",
+   "expect": "windows_close:windows"
+  },
+  {
+   "id": "en_US_amy_medium_08",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Heat my seat.",
+   "expect": "seat_heat_on:seat"
+  },
+  {
+   "id": "en_US_amy_medium_09",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Turn on the passenger seat heater.",
+   "expect": "seat_heat_on:seat heater@passenger"
+  },
+  {
+   "id": "en_US_amy_medium_10",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Defrost the windscreen.",
+   "expect": "defrost:windscreen"
+  },
+  {
+   "id": "en_US_amy_medium_11",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Navigate home.",
+   "expect": "navigate:home"
+  },
+  {
+   "id": "en_US_amy_medium_12",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Take me to the airport.",
+   "expect": "navigate:the airport"
+  },
+  {
+   "id": "en_US_amy_medium_13",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Navigate to the nearest charger.",
+   "expect": "navigate:nearest charger"
+  },
+  {
+   "id": "en_US_amy_medium_14",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Cancel the route.",
+   "expect": "stop_navigation"
+  },
+  {
+   "id": "en_US_amy_medium_15",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Play the radio.",
+   "expect": "play:the radio"
+  },
+  {
+   "id": "en_US_amy_medium_16",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Pause the music.",
+   "expect": "pause:music"
+  },
+  {
+   "id": "en_US_amy_medium_17",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Next song.",
+   "expect": "next_track"
+  },
+  {
+   "id": "en_US_amy_medium_18",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Turn up the volume.",
+   "expect": "volume_up:volume"
+  },
+  {
+   "id": "en_US_amy_medium_19",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Turn on the headlights.",
+   "expect": "lights_on:headlights"
+  },
+  {
+   "id": "en_US_amy_medium_20",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "How much range do I have?",
+   "expect": "range"
+  },
+  {
+   "id": "en_US_amy_medium_21",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Set the temperature to twenty one degrees and open the windows.",
+   "expect": "set_temperature:temperature=21; windows_open:windows"
+  },
+  {
+   "id": "en_US_amy_medium_22",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Open the front windows but not the rear.",
+   "expect": "windows_open:windows@front; -windows_open:windows@rear"
+  },
+  {
+   "id": "en_US_amy_medium_23",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Navigate to work and play the news.",
+   "expect": "navigate:work; play:the news"
+  },
+  {
+   "id": "en_US_amy_medium_24",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Turn off the seat heating.",
+   "expect": "seat_heat_off:seat heating"
+  },
+  {
+   "id": "en_US_amy_medium_25",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The windows were open all night.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_26",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "I left my seat at the cinema.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_27",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The temperature dropped to five degrees.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_28",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "My home is near the airport.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_29",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The radio said it would rain.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_30",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "We should open the windows later.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_31",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "That song was great.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_32",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The fan in my office is broken.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_33",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The headlights on that truck are bright.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_34",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "He drove to work yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_35",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Navigation apps use a lot of data.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_36",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The music in the cafe was nice.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_37",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "My seat on the plane was comfortable.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_38",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Turn right at the roundabout.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_39",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The airport is very busy today.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_40",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "I have to charge my phone.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_41",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The windscreen of the bus is cracked.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_42",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Podcasts are fun to listen to.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_43",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The volume of traffic is high.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_44",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "She heats the soup every evening.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_45",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "I need some fresh air.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_46",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Rear seats are for children.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_00",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Set the temperature to twenty one degrees.",
+   "expect": "set_temperature:temperature=21"
+  },
+  {
+   "id": "en_US_lessac_medium_01",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Make it warmer.",
+   "expect": "warmer"
+  },
+  {
+   "id": "en_US_lessac_medium_02",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Turn the fan up.",
+   "expect": "fan_up:fan"
+  },
+  {
+   "id": "en_US_lessac_medium_03",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Set the fan to three.",
+   "expect": "set_fan:fan=3"
+  },
+  {
+   "id": "en_US_lessac_medium_04",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Open the windows.",
+   "expect": "windows_open:windows"
+  },
+  {
+   "id": "en_US_lessac_medium_05",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Roll down the driver's window.",
+   "expect": "windows_open:window@driver"
+  },
+  {
+   "id": "en_US_lessac_medium_06",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Close the rear windows.",
+   "expect": "windows_close:windows@rear"
+  },
+  {
+   "id": "en_US_lessac_medium_07",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Windows up.",
+   "expect": "windows_close:windows"
+  },
+  {
+   "id": "en_US_lessac_medium_08",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Heat my seat.",
+   "expect": "seat_heat_on:seat"
+  },
+  {
+   "id": "en_US_lessac_medium_09",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Turn on the passenger seat heater.",
+   "expect": "seat_heat_on:seat heater@passenger"
+  },
+  {
+   "id": "en_US_lessac_medium_10",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Defrost the windscreen.",
+   "expect": "defrost:windscreen"
+  },
+  {
+   "id": "en_US_lessac_medium_11",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Navigate home.",
+   "expect": "navigate:home"
+  },
+  {
+   "id": "en_US_lessac_medium_12",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Take me to the airport.",
+   "expect": "navigate:the airport"
+  },
+  {
+   "id": "en_US_lessac_medium_13",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Navigate to the nearest charger.",
+   "expect": "navigate:nearest charger"
+  },
+  {
+   "id": "en_US_lessac_medium_14",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Cancel the route.",
+   "expect": "stop_navigation"
+  },
+  {
+   "id": "en_US_lessac_medium_15",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Play the radio.",
+   "expect": "play:the radio"
+  },
+  {
+   "id": "en_US_lessac_medium_16",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Pause the music.",
+   "expect": "pause:music"
+  },
+  {
+   "id": "en_US_lessac_medium_17",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Next song.",
+   "expect": "next_track"
+  },
+  {
+   "id": "en_US_lessac_medium_18",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Turn up the volume.",
+   "expect": "volume_up:volume"
+  },
+  {
+   "id": "en_US_lessac_medium_19",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Turn on the headlights.",
+   "expect": "lights_on:headlights"
+  },
+  {
+   "id": "en_US_lessac_medium_20",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "How much range do I have?",
+   "expect": "range"
+  },
+  {
+   "id": "en_US_lessac_medium_21",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Set the temperature to twenty one degrees and open the windows.",
+   "expect": "set_temperature:temperature=21; windows_open:windows"
+  },
+  {
+   "id": "en_US_lessac_medium_22",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Open the front windows but not the rear.",
+   "expect": "windows_open:windows@front; -windows_open:windows@rear"
+  },
+  {
+   "id": "en_US_lessac_medium_23",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Navigate to work and play the news.",
+   "expect": "navigate:work; play:the news"
+  },
+  {
+   "id": "en_US_lessac_medium_24",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Turn off the seat heating.",
+   "expect": "seat_heat_off:seat heating"
+  },
+  {
+   "id": "en_US_lessac_medium_25",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The windows were open all night.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_26",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "I left my seat at the cinema.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_27",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The temperature dropped to five degrees.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_28",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "My home is near the airport.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_29",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The radio said it would rain.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_30",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "We should open the windows later.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_31",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "That song was great.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_32",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The fan in my office is broken.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_33",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The headlights on that truck are bright.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_34",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "He drove to work yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_35",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Navigation apps use a lot of data.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_36",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The music in the cafe was nice.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_37",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "My seat on the plane was comfortable.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_38",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Turn right at the roundabout.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_39",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The airport is very busy today.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_40",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "I have to charge my phone.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_41",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The windscreen of the bus is cracked.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_42",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Podcasts are fun to listen to.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_43",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The volume of traffic is high.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_44",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "She heats the soup every evening.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_45",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "I need some fresh air.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_46",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Rear seats are for children.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_00",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Set the temperature to twenty one degrees.",
+   "expect": "set_temperature:temperature=21"
+  },
+  {
+   "id": "en_US_ryan_medium_01",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Make it warmer.",
+   "expect": "warmer"
+  },
+  {
+   "id": "en_US_ryan_medium_02",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Turn the fan up.",
+   "expect": "fan_up:fan"
+  },
+  {
+   "id": "en_US_ryan_medium_03",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Set the fan to three.",
+   "expect": "set_fan:fan=3"
+  },
+  {
+   "id": "en_US_ryan_medium_04",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Open the windows.",
+   "expect": "windows_open:windows"
+  },
+  {
+   "id": "en_US_ryan_medium_05",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Roll down the driver's window.",
+   "expect": "windows_open:window@driver"
+  },
+  {
+   "id": "en_US_ryan_medium_06",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Close the rear windows.",
+   "expect": "windows_close:windows@rear"
+  },
+  {
+   "id": "en_US_ryan_medium_07",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Windows up.",
+   "expect": "windows_close:windows"
+  },
+  {
+   "id": "en_US_ryan_medium_08",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Heat my seat.",
+   "expect": "seat_heat_on:seat"
+  },
+  {
+   "id": "en_US_ryan_medium_09",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Turn on the passenger seat heater.",
+   "expect": "seat_heat_on:seat heater@passenger"
+  },
+  {
+   "id": "en_US_ryan_medium_10",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Defrost the windscreen.",
+   "expect": "defrost:windscreen"
+  },
+  {
+   "id": "en_US_ryan_medium_11",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Navigate home.",
+   "expect": "navigate:home"
+  },
+  {
+   "id": "en_US_ryan_medium_12",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Take me to the airport.",
+   "expect": "navigate:the airport"
+  },
+  {
+   "id": "en_US_ryan_medium_13",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Navigate to the nearest charger.",
+   "expect": "navigate:nearest charger"
+  },
+  {
+   "id": "en_US_ryan_medium_14",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Cancel the route.",
+   "expect": "stop_navigation"
+  },
+  {
+   "id": "en_US_ryan_medium_15",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Play the radio.",
+   "expect": "play:the radio"
+  },
+  {
+   "id": "en_US_ryan_medium_16",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Pause the music.",
+   "expect": "pause:music"
+  },
+  {
+   "id": "en_US_ryan_medium_17",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Next song.",
+   "expect": "next_track"
+  },
+  {
+   "id": "en_US_ryan_medium_18",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Turn up the volume.",
+   "expect": "volume_up:volume"
+  },
+  {
+   "id": "en_US_ryan_medium_19",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Turn on the headlights.",
+   "expect": "lights_on:headlights"
+  },
+  {
+   "id": "en_US_ryan_medium_20",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "How much range do I have?",
+   "expect": "range"
+  },
+  {
+   "id": "en_US_ryan_medium_21",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Set the temperature to twenty one degrees and open the windows.",
+   "expect": "set_temperature:temperature=21; windows_open:windows"
+  },
+  {
+   "id": "en_US_ryan_medium_22",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Open the front windows but not the rear.",
+   "expect": "windows_open:windows@front; -windows_open:windows@rear"
+  },
+  {
+   "id": "en_US_ryan_medium_23",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Navigate to work and play the news.",
+   "expect": "navigate:work; play:the news"
+  },
+  {
+   "id": "en_US_ryan_medium_24",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Turn off the seat heating.",
+   "expect": "seat_heat_off:seat heating"
+  },
+  {
+   "id": "en_US_ryan_medium_25",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The windows were open all night.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_26",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "I left my seat at the cinema.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_27",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The temperature dropped to five degrees.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_28",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "My home is near the airport.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_29",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The radio said it would rain.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_30",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "We should open the windows later.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_31",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "That song was great.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_32",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The fan in my office is broken.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_33",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The headlights on that truck are bright.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_34",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "He drove to work yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_35",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Navigation apps use a lot of data.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_36",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The music in the cafe was nice.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_37",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "My seat on the plane was comfortable.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_38",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Turn right at the roundabout.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_39",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The airport is very busy today.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_40",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "I have to charge my phone.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_41",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The windscreen of the bus is cracked.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_42",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Podcasts are fun to listen to.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_43",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The volume of traffic is high.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_44",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "She heats the soup every evening.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_45",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "I need some fresh air.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_46",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Rear seats are for children.",
+   "expect": null
+  }
+ ]
+}

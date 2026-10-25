@@ -1,0 +1,22 @@
+# The car cabin demo's phrases: while the demo is open, the recogniser listens harder for these words and
+# sentences. One word or sentence per line; a line starting with # is a note. At most 10 words and 10 sentences.
+windscreen
+defrost
+route
+song
+seat
+heater
+headlights
+navigate
+windows
+temperature
+defrost the windscreen
+cancel the route
+next song
+navigate home
+open the windows
+close the windows
+turn on the seat heater
+turn up the volume
+play the radio
+how much range

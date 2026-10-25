@@ -1,0 +1,11 @@
+ok live_transcriber 1 idle, the model from the microSD card
+ok phrases off, from the microSD card: 4 words, 10 sentences, 0 ignored | 0:on:ESP32=ESP thirty two=ESP thirty-two; 1:on:ESP32-P4=ESP thirty two P four=ESP thirty-two P four; 2:on:Espressif; 3:on:Krok
+ok phrases on, from the microSD card: 4 words, 10 sentences, 0 ignored | 0:on:ESP32=ESP thirty two=ESP thirty-two; 1:on:
+pieces: the board = the PC on 140 of 140 clips; words (with the rewrites) on 140 of 140
+ok stats chunks 2 listening 2120 behind 0 x_rt 0.690 mean 883 median 888 p95 888 max 888 lost 0 clipped 0 tokens 11 words 6 delay_median 960 delay_p95 1640 psram 661724 psram_min 453328 internal 73539 gain 54.0
+ok uicheck overflows 0 shrunk 3072 frames 2894 mean_ms 66.7 max_ms 497.0
+ok phrases off, from the microSD card: 4 words, 10 sentences
+PC beam 4, phrases off             words   0/60   0.0 % (loose   0.0 %) | sentences  62/72  86.1 % | false alarms 0 (none: 0) | WER 19.5 %
+PC beam 4, phrases off, rewritten  words  17/60  28.3 % (loose  28.3 %) | sentences  70/72  97.2 % | false alarms 4 (none: 0) | WER 10.3 %
+the board, phrases on              words  46/60  76.7 % (loose  76.7 %) | sentences  70/72  97.2 % | false alarms 3 (none: 0) | WER 3.4 %
+PASS

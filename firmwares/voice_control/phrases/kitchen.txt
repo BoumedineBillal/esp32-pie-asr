@@ -1,0 +1,23 @@
+# The kitchen demo's phrases: while the demo is open, the recogniser listens harder for these words and
+# sentences. One word or sentence per line; a line starting with # is a note. At most 10 words and 10 sentences.
+# (no "turn on the burner": it pulled "turn on the back left burner" to itself, without its place)
+burner
+burners
+oven
+preheat
+kettle
+timer
+extractor
+lights
+minutes
+switch
+preheat the oven
+front left burner
+front right burner
+back left burner
+back right burner
+set a timer
+cancel the timer
+put the kettle on
+boil the kettle
+turn everything off

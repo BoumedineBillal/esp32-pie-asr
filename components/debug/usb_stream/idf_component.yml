@@ -1,0 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Boumedine Billal
+# SPDX-License-Identifier: Apache-2.0
+
+dependencies:
+  espressif/esp_tinyusb: "==2.4.0"

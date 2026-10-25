@@ -1,0 +1,47 @@
+# SPDX-FileCopyrightText: 2026 Boumedine Billal
+# SPDX-License-Identifier: Apache-2.0
+
+# A tag v*: the release firmware as one binary (offset 0), attached to the GitHub release and published with the
+# flashing page (web/) on GitHub Pages.
+name: release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.pages.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: firmware
+        uses: espressif/esp-idf-ci-action@v1
+        with:
+          esp_idf_version: v6.1
+          target: esp32p4
+          path: firmwares/voice_control
+          command: idf.py build && idf.py merge-bin
+      - name: the page and the binary
+        run: |
+          mkdir site
+          cp web/index.html site/
+          sed 's/"version": "dev"/"version": "${{ github.ref_name }}"/' web/manifest.json > site/manifest.json
+          cp firmwares/voice_control/build/merged-binary.bin site/voice_control.bin
+          cp site/voice_control.bin voice_control-${{ github.ref_name }}.bin
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: voice_control-${{ github.ref_name }}.bin
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: pages
+        uses: actions/deploy-pages@v4

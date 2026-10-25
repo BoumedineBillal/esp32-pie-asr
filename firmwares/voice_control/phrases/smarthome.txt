@@ -1,0 +1,22 @@
+# The smart home demo's phrases: while the demo is open, the recogniser listens harder for these words and
+# sentences. One word or sentence per line; a line starting with # is a note. At most 10 words and 10 sentences.
+lights
+blinds
+thermostat
+everywhere
+song
+jazz
+dim
+lock
+unlock
+music
+next song
+stop the music
+play some music
+turn off the lights
+turn on the lights
+lock the front door
+lock all the doors
+dim the lights
+set the thermostat
+open the blinds

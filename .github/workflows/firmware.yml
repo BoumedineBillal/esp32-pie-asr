@@ -1,0 +1,41 @@
+# SPDX-FileCopyrightText: 2026 Boumedine Billal
+# SPDX-License-Identifier: Apache-2.0
+
+name: firmware
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        firmware: [voice_control, live_transcriber]
+        config:
+          - name: release
+            defaults: sdkconfig.defaults
+          - name: debug
+            defaults: sdkconfig.defaults;sdkconfig.debug
+    steps:
+      - uses: actions/checkout@v4
+      - name: ${{ matrix.firmware }} (${{ matrix.config.name }})
+        uses: espressif/esp-idf-ci-action@v1
+        with:
+          esp_idf_version: v6.1
+          target: esp32p4
+          path: firmwares/${{ matrix.firmware }}
+          command: idf.py -D SDKCONFIG_DEFAULTS="${{ matrix.config.defaults }}" build
+
+  kernel-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: pieasr/tests/target
+        uses: espressif/esp-idf-ci-action@v1
+        with:
+          esp_idf_version: v6.1
+          target: esp32p4
+          path: pieasr/tests/target

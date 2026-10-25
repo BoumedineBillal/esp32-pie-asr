@@ -1,0 +1,188 @@
+en_GB_alan_medium_00.f32	clean_room:kitchen
+en_GB_alan_medium_01.f32	clean_room:bedroom
+en_GB_alan_medium_02.f32	clean_room:living room
+en_GB_alan_medium_03.f32	clean_spot:spill
+en_GB_alan_medium_04.f32	clean_spot:crumbs
+en_GB_alan_medium_05.f32	clean_spot:granola
+en_GB_alan_medium_06.f32	clean_spot:dust
+en_GB_alan_medium_07.f32	clean_all:everything
+en_GB_alan_medium_08.f32	go_to_room:kitchen
+en_GB_alan_medium_09.f32	return_to_dock:dock
+en_GB_alan_medium_10.f32	return_to_dock
+en_GB_alan_medium_11.f32	stop
+en_GB_alan_medium_12.f32	resume
+en_GB_alan_medium_13.f32	suction:high
+en_GB_alan_medium_14.f32	status
+en_GB_alan_medium_15.f32	clean_room:kitchen; -clean_room:bedroom; return_to_dock:dock
+en_GB_alan_medium_16.f32	clean_room:kitchen; clean_room:bedroom
+en_GB_alan_medium_17.f32	go_to_room:kitchen; clean_spot:spill
+en_GB_alan_medium_18.f32	clean_all:whole flat; -clean_room:bedroom
+en_GB_alan_medium_19.f32	-clean_room:living room (all_skipped)
+en_GB_alan_medium_20.f32	clean_room:bedroom; return_to_dock
+en_GB_alan_medium_21.f32	stop
+en_GB_alan_medium_22.f32	(no_verb)
+en_GB_alan_medium_23.f32	go_to_room:bedroom
+en_GB_alan_medium_24.f32	suction:max
+en_GB_alan_medium_25.f32	(no_verb)
+en_GB_alan_medium_26.f32	(no_verb)
+en_GB_alan_medium_27.f32	(no_verb)
+en_GB_alan_medium_28.f32	(no_words)
+en_GB_alan_medium_29.f32	(no_words)
+en_GB_alan_medium_30.f32	(no_verb)
+en_GB_alan_medium_31.f32	(no_words)
+en_GB_alan_medium_32.f32	(no_verb)
+en_GB_alan_medium_33.f32	(no_words)
+en_GB_alan_medium_34.f32	(no_verb)
+en_GB_alan_medium_35.f32	(no_verb)
+en_GB_alan_medium_36.f32	(no_words)
+en_GB_alan_medium_37.f32	(no_verb)
+en_GB_alan_medium_38.f32	(no_verb)
+en_GB_alan_medium_39.f32	(no_words)
+en_GB_alan_medium_40.f32	(no_target)
+en_GB_alan_medium_41.f32	(no_words)
+en_GB_alan_medium_42.f32	(no_words)
+en_GB_alan_medium_43.f32	(no_words)
+en_GB_alan_medium_44.f32	(no_words)
+en_GB_alan_medium_45.f32	(no_words)
+en_GB_alan_medium_46.f32	(no_verb)
+en_US_amy_medium_00.f32	clean_room:kitchen
+en_US_amy_medium_01.f32	clean_room:bedroom
+en_US_amy_medium_02.f32	clean_room:living room
+en_US_amy_medium_03.f32	clean_spot:spill
+en_US_amy_medium_04.f32	clean_spot:crumbs
+en_US_amy_medium_05.f32	(no_verb)
+en_US_amy_medium_06.f32	clean_spot:dust
+en_US_amy_medium_07.f32	clean_all:everything
+en_US_amy_medium_08.f32	go_to_room:kitchen
+en_US_amy_medium_09.f32	return_to_dock:dock
+en_US_amy_medium_10.f32	return_to_dock
+en_US_amy_medium_11.f32	stop
+en_US_amy_medium_12.f32	resume
+en_US_amy_medium_13.f32	suction:high
+en_US_amy_medium_14.f32	status
+en_US_amy_medium_15.f32	clean_room:kitchen; -clean_room:bedroom; return_to_dock:dock
+en_US_amy_medium_16.f32	clean_room:kitchen; clean_room:bedroom
+en_US_amy_medium_17.f32	go_to_room:kitchen; clean_spot:spill
+en_US_amy_medium_18.f32	clean_all:whole flat; -clean_room:bedroom
+en_US_amy_medium_19.f32	-clean_room:living room (all_skipped)
+en_US_amy_medium_20.f32	clean_room:bedroom; return_to_dock
+en_US_amy_medium_21.f32	stop
+en_US_amy_medium_22.f32	clean_room:living room
+en_US_amy_medium_23.f32	go_to_room:bedroom
+en_US_amy_medium_24.f32	suction:max
+en_US_amy_medium_25.f32	(no_verb)
+en_US_amy_medium_26.f32	(no_verb)
+en_US_amy_medium_27.f32	(no_verb)
+en_US_amy_medium_28.f32	(no_words)
+en_US_amy_medium_29.f32	(no_words)
+en_US_amy_medium_30.f32	(no_verb)
+en_US_amy_medium_31.f32	(no_words)
+en_US_amy_medium_32.f32	(no_verb)
+en_US_amy_medium_33.f32	(no_words)
+en_US_amy_medium_34.f32	(no_verb)
+en_US_amy_medium_35.f32	(no_verb)
+en_US_amy_medium_36.f32	(no_words)
+en_US_amy_medium_37.f32	(no_verb)
+en_US_amy_medium_38.f32	(no_verb)
+en_US_amy_medium_39.f32	(no_words)
+en_US_amy_medium_40.f32	(no_target)
+en_US_amy_medium_41.f32	(no_words)
+en_US_amy_medium_42.f32	(no_words)
+en_US_amy_medium_43.f32	(no_words)
+en_US_amy_medium_44.f32	(no_words)
+en_US_amy_medium_45.f32	(no_words)
+en_US_amy_medium_46.f32	(no_verb)
+en_US_lessac_medium_00.f32	clean_room:kitchen
+en_US_lessac_medium_01.f32	clean_room:bedroom
+en_US_lessac_medium_02.f32	clean_room:living room
+en_US_lessac_medium_03.f32	clean_spot:spill
+en_US_lessac_medium_04.f32	clean_spot:crumbs
+en_US_lessac_medium_05.f32	clean_spot:granola
+en_US_lessac_medium_06.f32	clean_spot:dust
+en_US_lessac_medium_07.f32	clean_all:everything
+en_US_lessac_medium_08.f32	go_to_room:kitchen
+en_US_lessac_medium_09.f32	return_to_dock:dock
+en_US_lessac_medium_10.f32	return_to_dock
+en_US_lessac_medium_11.f32	(no_words)
+en_US_lessac_medium_12.f32	resume
+en_US_lessac_medium_13.f32	suction:high
+en_US_lessac_medium_14.f32	status
+en_US_lessac_medium_15.f32	clean_room:kitchen; -clean_room:bedroom; return_to_dock:dock
+en_US_lessac_medium_16.f32	clean_room:kitchen; clean_room:bedroom
+en_US_lessac_medium_17.f32	go_to_room:kitchen; clean_spot:spill
+en_US_lessac_medium_18.f32	clean_all:whole flat; -clean_room:bedroom
+en_US_lessac_medium_19.f32	-clean_room:living room (all_skipped)
+en_US_lessac_medium_20.f32	clean_room:bedroom; return_to_dock
+en_US_lessac_medium_21.f32	stop
+en_US_lessac_medium_22.f32	clean_room:living room
+en_US_lessac_medium_23.f32	go_to_room:bedroom
+en_US_lessac_medium_24.f32	suction:max
+en_US_lessac_medium_25.f32	(no_verb)
+en_US_lessac_medium_26.f32	(no_verb)
+en_US_lessac_medium_27.f32	(no_verb)
+en_US_lessac_medium_28.f32	(no_words)
+en_US_lessac_medium_29.f32	(no_words)
+en_US_lessac_medium_30.f32	(no_verb)
+en_US_lessac_medium_31.f32	(no_words)
+en_US_lessac_medium_32.f32	(no_verb)
+en_US_lessac_medium_33.f32	(no_words)
+en_US_lessac_medium_34.f32	(no_verb)
+en_US_lessac_medium_35.f32	(no_verb)
+en_US_lessac_medium_36.f32	(no_words)
+en_US_lessac_medium_37.f32	(no_verb)
+en_US_lessac_medium_38.f32	(no_verb)
+en_US_lessac_medium_39.f32	(no_words)
+en_US_lessac_medium_40.f32	(no_target)
+en_US_lessac_medium_41.f32	(no_words)
+en_US_lessac_medium_42.f32	(no_words)
+en_US_lessac_medium_43.f32	(no_words)
+en_US_lessac_medium_44.f32	(no_words)
+en_US_lessac_medium_45.f32	(no_words)
+en_US_lessac_medium_46.f32	(no_verb)
+en_US_ryan_medium_00.f32	clean_room:kitchen
+en_US_ryan_medium_01.f32	clean_room:bedroom
+en_US_ryan_medium_02.f32	clean_room:living room
+en_US_ryan_medium_03.f32	clean_spot:spill
+en_US_ryan_medium_04.f32	clean_spot:crumbs
+en_US_ryan_medium_05.f32	clean_spot:granola
+en_US_ryan_medium_06.f32	clean_spot:dust
+en_US_ryan_medium_07.f32	clean_all:everything
+en_US_ryan_medium_08.f32	go_to_room:kitchen
+en_US_ryan_medium_09.f32	return_to_dock:dock
+en_US_ryan_medium_10.f32	(no_words)
+en_US_ryan_medium_11.f32	stop
+en_US_ryan_medium_12.f32	resume
+en_US_ryan_medium_13.f32	suction:high
+en_US_ryan_medium_14.f32	status
+en_US_ryan_medium_15.f32	clean_room:kitchen; -clean_room:bedroom; return_to_dock:dock
+en_US_ryan_medium_16.f32	clean_room:kitchen; clean_room:bedroom
+en_US_ryan_medium_17.f32	go_to_room:kitchen; clean_spot:spill
+en_US_ryan_medium_18.f32	clean_all:whole flat; -clean_room:bedroom
+en_US_ryan_medium_19.f32	-clean_room:living room (all_skipped)
+en_US_ryan_medium_20.f32	clean_room:bedroom; return_to_dock
+en_US_ryan_medium_21.f32	stop
+en_US_ryan_medium_22.f32	clean_room:living room
+en_US_ryan_medium_23.f32	go_to_room:bedroom
+en_US_ryan_medium_24.f32	suction:max
+en_US_ryan_medium_25.f32	(no_verb)
+en_US_ryan_medium_26.f32	(no_verb)
+en_US_ryan_medium_27.f32	(no_verb)
+en_US_ryan_medium_28.f32	(no_words)
+en_US_ryan_medium_29.f32	(no_words)
+en_US_ryan_medium_30.f32	(no_verb)
+en_US_ryan_medium_31.f32	(no_words)
+en_US_ryan_medium_32.f32	(no_verb)
+en_US_ryan_medium_33.f32	(no_words)
+en_US_ryan_medium_34.f32	(no_verb)
+en_US_ryan_medium_35.f32	(no_verb)
+en_US_ryan_medium_36.f32	(no_words)
+en_US_ryan_medium_37.f32	(no_verb)
+en_US_ryan_medium_38.f32	(no_verb)
+en_US_ryan_medium_39.f32	(no_words)
+en_US_ryan_medium_40.f32	(no_target)
+en_US_ryan_medium_41.f32	(no_words)
+en_US_ryan_medium_42.f32	(no_words)
+en_US_ryan_medium_43.f32	(no_words)
+en_US_ryan_medium_44.f32	(no_words)
+en_US_ryan_medium_45.f32	(no_words)
+en_US_ryan_medium_46.f32	(no_verb)

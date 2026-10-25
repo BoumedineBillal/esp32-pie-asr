@@ -1,0 +1,24 @@
+# SPDX-FileCopyrightText: 2026 Boumedine Billal
+# SPDX-License-Identifier: Apache-2.0
+
+# Where the engine's code goes: flash by default; in internal RAM the products' drivers, the attention and conv.0
+# loops, the PIE kernels and the two-core runtime (more of it in internal RAM would take the RAM the 256 KB L2 cache
+# needs). The archive is the component's: libpieasr.a for the component directory pieasr/.
+[mapping:pieasr]
+archive: libpieasr.a
+entries:
+    * (default)
+    linear_int (noflash)
+    dense_int8 (noflash)
+    attention_weights:scores_part (noflash)
+    attention_values:av_cols_q8i (noflash)
+    attention_values:av_part (noflash)
+    front_end:conv0_part (noflash)
+    linear_pie (noflash)
+    decode (noflash)
+    tile (noflash)
+    hadamard (noflash)
+    output (noflash)
+    depthwise (noflash)
+    elementwise (noflash)
+    parallel_esp32 (noflash)

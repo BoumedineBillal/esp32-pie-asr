@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: 2026 Boumedine Billal
+# SPDX-License-Identifier: Apache-2.0
+
+menu "esp32-pie-asr engine"
+
+    config PIEASR_BEAM_WIDTH
+        int "Beam search hypotheses"
+        range 1 8
+        default 4
+        help
+            Hypotheses of the beam search (pieasr_beam_new). 1 gives the greedy search's tokens.
+
+endmenu

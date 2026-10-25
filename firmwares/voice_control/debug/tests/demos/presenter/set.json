@@ -1,0 +1,1320 @@
+{
+ "clips": [
+  {
+   "id": "en_GB_alan_medium_00",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Next slide.",
+   "expect": "next"
+  },
+  {
+   "id": "en_GB_alan_medium_01",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Next slide please.",
+   "expect": "next"
+  },
+  {
+   "id": "en_GB_alan_medium_02",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Previous slide.",
+   "expect": "previous"
+  },
+  {
+   "id": "en_GB_alan_medium_03",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Go back one slide.",
+   "expect": "previous"
+  },
+  {
+   "id": "en_GB_alan_medium_04",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Go to slide five.",
+   "expect": "go_to:slide=5"
+  },
+  {
+   "id": "en_GB_alan_medium_05",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Go to the third slide.",
+   "expect": "go_to:slide=3"
+  },
+  {
+   "id": "en_GB_alan_medium_06",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Jump to slide number seven.",
+   "expect": "go_to:slide number=7"
+  },
+  {
+   "id": "en_GB_alan_medium_07",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "First slide.",
+   "expect": "first"
+  },
+  {
+   "id": "en_GB_alan_medium_08",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Go to the last slide.",
+   "expect": "last:the last slide"
+  },
+  {
+   "id": "en_GB_alan_medium_09",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Start the presentation.",
+   "expect": "start:presentation"
+  },
+  {
+   "id": "en_GB_alan_medium_10",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "End the presentation.",
+   "expect": "end:presentation"
+  },
+  {
+   "id": "en_GB_alan_medium_11",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Black screen.",
+   "expect": "blank"
+  },
+  {
+   "id": "en_GB_alan_medium_12",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Show the slides.",
+   "expect": "unblank"
+  },
+  {
+   "id": "en_GB_alan_medium_13",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Start the timer.",
+   "expect": "timer_start:timer"
+  },
+  {
+   "id": "en_GB_alan_medium_14",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Reset the timer.",
+   "expect": "timer_reset:timer"
+  },
+  {
+   "id": "en_GB_alan_medium_15",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Zoom in.",
+   "expect": "zoom_in"
+  },
+  {
+   "id": "en_GB_alan_medium_16",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Zoom out.",
+   "expect": "zoom_out"
+  },
+  {
+   "id": "en_GB_alan_medium_17",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "How much time do I have?",
+   "expect": "time_left"
+  },
+  {
+   "id": "en_GB_alan_medium_18",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Start the presentation and start the timer.",
+   "expect": "start:presentation; timer_start:timer"
+  },
+  {
+   "id": "en_GB_alan_medium_19",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Go to slide two.",
+   "expect": "go_to:slide=2"
+  },
+  {
+   "id": "en_GB_alan_medium_20",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Last slide.",
+   "expect": "last"
+  },
+  {
+   "id": "en_GB_alan_medium_21",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Go to slide ten.",
+   "expect": "go_to:slide=10"
+  },
+  {
+   "id": "en_GB_alan_medium_22",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Blank the screen.",
+   "expect": "blank"
+  },
+  {
+   "id": "en_GB_alan_medium_23",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Go to the first slide.",
+   "expect": "go_to:slide=1"
+  },
+  {
+   "id": "en_GB_alan_medium_24",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Next page.",
+   "expect": "next"
+  },
+  {
+   "id": "en_GB_alan_medium_25",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Let's go back in time to two thousand ten.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_26",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "In the next slide we will see the results.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_27",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "This slide is about our team.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_28",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The presentation went well.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_29",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Our timer starts now.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_30",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Zoom calls are tiring.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_31",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "We need to end this meeting.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_32",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Show me the money.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_33",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The next slide shows our results.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_34",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "First of all, thank you for coming.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_35",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The last time we met was in May.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_36",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "I will start with a short story.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_37",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The screen is too small.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_38",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Time flies when you are having fun.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_39",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Our first product sold well.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_40",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The end of the year is busy.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_41",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Page five of the report has the numbers.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_42",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "He went back home after the talk.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_43",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Please hold your questions until the end.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_44",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Black is a classic colour.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_45",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "We moved forward with the plan.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_46",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The slides are on the website.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_00",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Next slide.",
+   "expect": "next"
+  },
+  {
+   "id": "en_US_amy_medium_01",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Next slide please.",
+   "expect": "next"
+  },
+  {
+   "id": "en_US_amy_medium_02",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Previous slide.",
+   "expect": "previous"
+  },
+  {
+   "id": "en_US_amy_medium_03",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Go back one slide.",
+   "expect": "previous"
+  },
+  {
+   "id": "en_US_amy_medium_04",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Go to slide five.",
+   "expect": "go_to:slide=5"
+  },
+  {
+   "id": "en_US_amy_medium_05",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Go to the third slide.",
+   "expect": "go_to:slide=3"
+  },
+  {
+   "id": "en_US_amy_medium_06",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Jump to slide number seven.",
+   "expect": "go_to:slide number=7"
+  },
+  {
+   "id": "en_US_amy_medium_07",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "First slide.",
+   "expect": "first"
+  },
+  {
+   "id": "en_US_amy_medium_08",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Go to the last slide.",
+   "expect": "last:the last slide"
+  },
+  {
+   "id": "en_US_amy_medium_09",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Start the presentation.",
+   "expect": "start:presentation"
+  },
+  {
+   "id": "en_US_amy_medium_10",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "End the presentation.",
+   "expect": "end:presentation"
+  },
+  {
+   "id": "en_US_amy_medium_11",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Black screen.",
+   "expect": "blank"
+  },
+  {
+   "id": "en_US_amy_medium_12",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Show the slides.",
+   "expect": "unblank"
+  },
+  {
+   "id": "en_US_amy_medium_13",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Start the timer.",
+   "expect": "timer_start:timer"
+  },
+  {
+   "id": "en_US_amy_medium_14",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Reset the timer.",
+   "expect": "timer_reset:timer"
+  },
+  {
+   "id": "en_US_amy_medium_15",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Zoom in.",
+   "expect": "zoom_in"
+  },
+  {
+   "id": "en_US_amy_medium_16",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Zoom out.",
+   "expect": "zoom_out"
+  },
+  {
+   "id": "en_US_amy_medium_17",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "How much time do I have?",
+   "expect": "time_left"
+  },
+  {
+   "id": "en_US_amy_medium_18",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Start the presentation and start the timer.",
+   "expect": "start:presentation; timer_start:timer"
+  },
+  {
+   "id": "en_US_amy_medium_19",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Go to slide two.",
+   "expect": "go_to:slide=2"
+  },
+  {
+   "id": "en_US_amy_medium_20",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Last slide.",
+   "expect": "last"
+  },
+  {
+   "id": "en_US_amy_medium_21",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Go to slide ten.",
+   "expect": "go_to:slide=10"
+  },
+  {
+   "id": "en_US_amy_medium_22",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Blank the screen.",
+   "expect": "blank"
+  },
+  {
+   "id": "en_US_amy_medium_23",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Go to the first slide.",
+   "expect": "go_to:slide=1"
+  },
+  {
+   "id": "en_US_amy_medium_24",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Next page.",
+   "expect": "next"
+  },
+  {
+   "id": "en_US_amy_medium_25",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Let's go back in time to two thousand ten.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_26",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "In the next slide we will see the results.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_27",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "This slide is about our team.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_28",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The presentation went well.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_29",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Our timer starts now.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_30",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Zoom calls are tiring.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_31",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "We need to end this meeting.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_32",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Show me the money.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_33",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The next slide shows our results.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_34",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "First of all, thank you for coming.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_35",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The last time we met was in May.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_36",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "I will start with a short story.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_37",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The screen is too small.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_38",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Time flies when you are having fun.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_39",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Our first product sold well.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_40",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The end of the year is busy.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_41",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Page five of the report has the numbers.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_42",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "He went back home after the talk.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_43",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Please hold your questions until the end.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_44",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Black is a classic colour.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_45",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "We moved forward with the plan.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_46",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The slides are on the website.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_00",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Next slide.",
+   "expect": "next"
+  },
+  {
+   "id": "en_US_lessac_medium_01",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Next slide please.",
+   "expect": "next"
+  },
+  {
+   "id": "en_US_lessac_medium_02",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Previous slide.",
+   "expect": "previous"
+  },
+  {
+   "id": "en_US_lessac_medium_03",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Go back one slide.",
+   "expect": "previous"
+  },
+  {
+   "id": "en_US_lessac_medium_04",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Go to slide five.",
+   "expect": "go_to:slide=5"
+  },
+  {
+   "id": "en_US_lessac_medium_05",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Go to the third slide.",
+   "expect": "go_to:slide=3"
+  },
+  {
+   "id": "en_US_lessac_medium_06",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Jump to slide number seven.",
+   "expect": "go_to:slide number=7"
+  },
+  {
+   "id": "en_US_lessac_medium_07",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "First slide.",
+   "expect": "first"
+  },
+  {
+   "id": "en_US_lessac_medium_08",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Go to the last slide.",
+   "expect": "last:the last slide"
+  },
+  {
+   "id": "en_US_lessac_medium_09",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Start the presentation.",
+   "expect": "start:presentation"
+  },
+  {
+   "id": "en_US_lessac_medium_10",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "End the presentation.",
+   "expect": "end:presentation"
+  },
+  {
+   "id": "en_US_lessac_medium_11",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Black screen.",
+   "expect": "blank"
+  },
+  {
+   "id": "en_US_lessac_medium_12",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Show the slides.",
+   "expect": "unblank"
+  },
+  {
+   "id": "en_US_lessac_medium_13",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Start the timer.",
+   "expect": "timer_start:timer"
+  },
+  {
+   "id": "en_US_lessac_medium_14",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Reset the timer.",
+   "expect": "timer_reset:timer"
+  },
+  {
+   "id": "en_US_lessac_medium_15",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Zoom in.",
+   "expect": "zoom_in"
+  },
+  {
+   "id": "en_US_lessac_medium_16",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Zoom out.",
+   "expect": "zoom_out"
+  },
+  {
+   "id": "en_US_lessac_medium_17",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "How much time do I have?",
+   "expect": "time_left"
+  },
+  {
+   "id": "en_US_lessac_medium_18",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Start the presentation and start the timer.",
+   "expect": "start:presentation; timer_start:timer"
+  },
+  {
+   "id": "en_US_lessac_medium_19",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Go to slide two.",
+   "expect": "go_to:slide=2"
+  },
+  {
+   "id": "en_US_lessac_medium_20",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Last slide.",
+   "expect": "last"
+  },
+  {
+   "id": "en_US_lessac_medium_21",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Go to slide ten.",
+   "expect": "go_to:slide=10"
+  },
+  {
+   "id": "en_US_lessac_medium_22",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Blank the screen.",
+   "expect": "blank"
+  },
+  {
+   "id": "en_US_lessac_medium_23",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Go to the first slide.",
+   "expect": "go_to:slide=1"
+  },
+  {
+   "id": "en_US_lessac_medium_24",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Next page.",
+   "expect": "next"
+  },
+  {
+   "id": "en_US_lessac_medium_25",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Let's go back in time to two thousand ten.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_26",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "In the next slide we will see the results.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_27",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "This slide is about our team.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_28",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The presentation went well.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_29",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Our timer starts now.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_30",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Zoom calls are tiring.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_31",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "We need to end this meeting.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_32",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Show me the money.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_33",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The next slide shows our results.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_34",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "First of all, thank you for coming.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_35",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The last time we met was in May.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_36",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "I will start with a short story.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_37",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The screen is too small.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_38",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Time flies when you are having fun.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_39",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Our first product sold well.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_40",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The end of the year is busy.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_41",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Page five of the report has the numbers.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_42",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "He went back home after the talk.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_43",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Please hold your questions until the end.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_44",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Black is a classic colour.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_45",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "We moved forward with the plan.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_46",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The slides are on the website.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_00",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Next slide.",
+   "expect": "next"
+  },
+  {
+   "id": "en_US_ryan_medium_01",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Next slide please.",
+   "expect": "next"
+  },
+  {
+   "id": "en_US_ryan_medium_02",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Previous slide.",
+   "expect": "previous"
+  },
+  {
+   "id": "en_US_ryan_medium_03",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Go back one slide.",
+   "expect": "previous"
+  },
+  {
+   "id": "en_US_ryan_medium_04",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Go to slide five.",
+   "expect": "go_to:slide=5"
+  },
+  {
+   "id": "en_US_ryan_medium_05",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Go to the third slide.",
+   "expect": "go_to:slide=3"
+  },
+  {
+   "id": "en_US_ryan_medium_06",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Jump to slide number seven.",
+   "expect": "go_to:slide number=7"
+  },
+  {
+   "id": "en_US_ryan_medium_07",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "First slide.",
+   "expect": "first"
+  },
+  {
+   "id": "en_US_ryan_medium_08",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Go to the last slide.",
+   "expect": "last:the last slide"
+  },
+  {
+   "id": "en_US_ryan_medium_09",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Start the presentation.",
+   "expect": "start:presentation"
+  },
+  {
+   "id": "en_US_ryan_medium_10",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "End the presentation.",
+   "expect": "end:presentation"
+  },
+  {
+   "id": "en_US_ryan_medium_11",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Black screen.",
+   "expect": "blank"
+  },
+  {
+   "id": "en_US_ryan_medium_12",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Show the slides.",
+   "expect": "unblank"
+  },
+  {
+   "id": "en_US_ryan_medium_13",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Start the timer.",
+   "expect": "timer_start:timer"
+  },
+  {
+   "id": "en_US_ryan_medium_14",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Reset the timer.",
+   "expect": "timer_reset:timer"
+  },
+  {
+   "id": "en_US_ryan_medium_15",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Zoom in.",
+   "expect": "zoom_in"
+  },
+  {
+   "id": "en_US_ryan_medium_16",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Zoom out.",
+   "expect": "zoom_out"
+  },
+  {
+   "id": "en_US_ryan_medium_17",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "How much time do I have?",
+   "expect": "time_left"
+  },
+  {
+   "id": "en_US_ryan_medium_18",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Start the presentation and start the timer.",
+   "expect": "start:presentation; timer_start:timer"
+  },
+  {
+   "id": "en_US_ryan_medium_19",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Go to slide two.",
+   "expect": "go_to:slide=2"
+  },
+  {
+   "id": "en_US_ryan_medium_20",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Last slide.",
+   "expect": "last"
+  },
+  {
+   "id": "en_US_ryan_medium_21",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Go to slide ten.",
+   "expect": "go_to:slide=10"
+  },
+  {
+   "id": "en_US_ryan_medium_22",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Blank the screen.",
+   "expect": "blank"
+  },
+  {
+   "id": "en_US_ryan_medium_23",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Go to the first slide.",
+   "expect": "go_to:slide=1"
+  },
+  {
+   "id": "en_US_ryan_medium_24",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Next page.",
+   "expect": "next"
+  },
+  {
+   "id": "en_US_ryan_medium_25",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Let's go back in time to two thousand ten.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_26",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "In the next slide we will see the results.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_27",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "This slide is about our team.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_28",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The presentation went well.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_29",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Our timer starts now.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_30",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Zoom calls are tiring.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_31",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "We need to end this meeting.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_32",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Show me the money.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_33",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The next slide shows our results.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_34",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "First of all, thank you for coming.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_35",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The last time we met was in May.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_36",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "I will start with a short story.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_37",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The screen is too small.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_38",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Time flies when you are having fun.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_39",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Our first product sold well.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_40",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The end of the year is busy.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_41",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Page five of the report has the numbers.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_42",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "He went back home after the talk.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_43",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Please hold your questions until the end.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_44",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Black is a classic colour.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_45",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "We moved forward with the plan.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_46",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The slides are on the website.",
+   "expect": null
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "1272-128104-0000": {
+  "crc": "d67c9326",
+  "greedy": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+  "beam4": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+ },
+ "1272-128104-0001": {
+  "crc": "c15fc1e5",
+  "greedy": "nor is Mr. Quilter's manner less interesting than his matter.",
+  "beam4": "nor is Mr. Quilter's manner less interesting than his matter."
+ },
+ "1272-128104-0003": {
+  "crc": "77719982",
+  "greedy": "He has grave doubts whether Sir Frederick Layton's work is really Greek after all, and can discover in it but little of rocky Ithaca.",
+  "beam4": "He has grave doubts, whether Sir Frederick Layton's work is really Greek after all, and can discover in it but little of rocky Ithaca."
+ },
+ "1272-128104-0005": {
+  "crc": "8e640670",
+  "greedy": "It is obviously unnecessary for us to point out how luminous these criticisms are, how delicate an expression",
+  "beam4": "It is obviously unnecessary for us to point out how luminous these criticisms are, how delicate an expression."
+ },
+ "1272-128104-0006": {
+  "crc": "0bae9590",
+  "greedy": "General principles of art, Mr. Quilter writes with equal lucidity",
+  "beam4": "Under general principles of art, Mr. Quilter writes with equal lucidity"
+ },
+ "1272-128104-0007": {
+  "crc": "089093c6",
+  "greedy": "Painting, he tells us, is of a different quality to mathematics and finish in art is adding more fact.",
+  "beam4": "Painting, he tells us, is of a different quality to mathematics, and finish in art is adding more fact."
+ },
+ "1272-128104-0008": {
+  "crc": "bc3e000b",
+  "greedy": "As for etchings, there are of two kinds British and foreign.",
+  "beam4": "As for etchings, there are of two kinds, British and foreign."
+ },
+ "1272-128104-0010": {
+  "crc": "ab66d70e",
+  "greedy": "near the fire, and the ornaments Fred brought home from India on the mental board.",
+  "beam4": "near the fire, and the ornaments Fred brought home from India on the mental board."
+ }
+}

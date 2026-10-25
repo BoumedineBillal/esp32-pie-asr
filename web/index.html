@@ -1,0 +1,135 @@
+<!doctype html>
+<!-- SPDX-FileCopyrightText: 2026 Boumedine Billal -->
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>esp32-pie-asr: install from the browser</title>
+<script type="module" src="https://unpkg.com/tasmota-esp-web-tools@12.3.0/dist/web/install-button.js?module"></script>
+<style>
+  :root { --bg: #ffffff; --ink: #1d1f23; --muted: #5f6672; --line: #e2e5ea; --soft: #f4f6f9; --accent: #2563eb;
+          --on-accent: #ffffff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111317; --ink: #e8eaee; --muted: #9aa1ad; --line: #2a2f37; --soft: #1a1d23; --accent: #5b8def;
+            --on-accent: #ffffff; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 system-ui, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px; }
+  h1 { font-size: 28px; margin: 0 0 6px; }
+  h2 { font-size: 19px; margin: 34px 0 10px; }
+  .lead { color: var(--muted); margin: 0; }
+  p { margin: 8px 0; }
+  ul, ol { padding-left: 22px; margin: 8px 0; }
+  li { margin: 6px 0; }
+  .steps > li { margin: 0 0 20px; }
+  .note { background: var(--soft); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; }
+  a { color: var(--accent); }
+  .button, esp-web-install-button button {
+    display: inline-block; margin-top: 6px; background: var(--accent); color: var(--on-accent); border: 0;
+    border-radius: 8px; padding: 10px 18px; font: 600 15px system-ui, sans-serif; text-decoration: none;
+    cursor: pointer;
+  }
+  code { font-size: 14px; }
+  dt { font-weight: 600; margin-top: 12px; }
+  dd { margin: 2px 0 0 0; color: var(--muted); }
+  footer { border-top: 1px solid var(--line); margin-top: 36px; padding-top: 16px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>esp32-pie-asr</h1>
+  <p class="lead">Live English speech recognition on the ESP32-P4: the board's microphone in, the words on its screen
+    as you speak, with no cloud; and six demos driven by spoken orders. Install it from this page in a few
+    minutes.</p>
+
+  <h2>What this page does</h2>
+  <p>It writes the program (the firmware) into the board's flash memory, from your browser. The browser talks to the
+    board over a USB cable; the flashing tool runs inside this page. Nothing is installed on your computer: no
+    drivers, no ESP-IDF, no Python. The firmware file comes from this site; GitHub builds it from the
+    <a href="https://github.com/BoumedineBillal/esp32-pie-asr">public source code</a> for each release.</p>
+  <p class="note"><strong>It does not put the model on the microSD card.</strong> The browser cannot reach the board's
+    card, and the model (26.65 MB) is too big for the board's flash. You copy it to the card yourself with your
+    computer (step 1); at each start the board reads it from the card into its memory.</p>
+
+  <h2>What you need</h2>
+  <ul>
+    <li>Espressif's <strong>ESP32-P4X-Function-EV-Board</strong> (ESP32-P4 chip revision v3) with its screen. Older
+      ESP32-P4 boards (chip revision v1) cannot run it; the installer refuses them.</li>
+    <li>A <strong>microSD card formatted FAT32</strong>: a card of 32 GB or less usually is. Larger cards come as
+      exFAT, which the board cannot read.</li>
+    <li>A USB-C cable that carries data (some cables only charge).</li>
+    <li><strong>Chrome or Edge</strong> on a computer (Windows, macOS or Linux). Firefox, Safari and phones cannot
+      flash boards.</li>
+  </ul>
+
+  <h2>Install</h2>
+  <ol class="steps">
+    <li>
+      <strong>Put the model on the microSD card.</strong>
+      <p>Download it, then copy <code>kroko-en-q24-v1.bin</code> to the top folder of the card (not inside a folder).
+        Put the card in the board's microSD slot.</p>
+      <a class="button" id="model" href="https://huggingface.co/BoumedineBillal/esp32-pie-asr-kroko-en">Download the model (26.65 MB)</a>
+    </li>
+    <li>
+      <strong>Connect the board.</strong>
+      <p>Plug the cable into the board's <strong>USB Serial/JTAG</strong> port (a USB-C port; not the USB 2.0
+        High-Speed one) and into this computer.</p>
+    </li>
+    <li>
+      <strong>Install the firmware.</strong>
+      <p>Click Install and choose the board in the list (it is named <em>USB JTAG/serial debug unit</em>). Accept to
+        erase the board. It takes about a minute; the board then restarts on its own.</p>
+      <esp-web-install-button manifest="manifest.json">
+        <button slot="activate">Install</button>
+        <span slot="unsupported">This browser cannot flash boards: open this page in Chrome or Edge on a computer.</span>
+        <span slot="not-allowed">Flashing needs this page over HTTPS.</span>
+      </esp-web-install-button>
+    </li>
+    <li>
+      <strong>Use it.</strong>
+      <p>The board reads the model from the card (about 3 seconds), then shows its home page. Choose <em>Live
+        transcription</em>, press <em>Start microphone</em> and speak English; the words appear a moment after you
+        say them. <em>Voice control</em> has the six demos: open one, press <em>Start mic</em> and say an order.</p>
+    </li>
+  </ol>
+
+  <h2>If something goes wrong</h2>
+  <dl>
+    <dt>The list of ports is empty</dt>
+    <dd>The cable is in the other USB port of the board, or it only charges: use the USB Serial/JTAG port, or another
+      cable.</dd>
+    <dt>The installer cannot connect to the board</dt>
+    <dd>Put the board in download mode: hold its BOOT button, press and release RESET, release BOOT. Then click
+      Install again.</dd>
+    <dt>The installer says the board is not supported</dt>
+    <dd>It is not an ESP32-P4 of chip revision v3 (an ESP32-P4X).</dd>
+    <dt>The screen says the microSD card cannot be read</dt>
+    <dd>The card is missing or not FAT32. Format it as FAT32 (a card of 32 GB or less), copy the model again,
+      restart the board.</dd>
+    <dt>The screen says there is no model, or that it is damaged</dt>
+    <dd>Copy <code>kroko-en-q24-v1.bin</code> again to the card's top folder, then restart the board.</dd>
+  </dl>
+
+  <footer>
+    <a href="https://github.com/BoumedineBillal/esp32-pie-asr">github.com/BoumedineBillal/esp32-pie-asr</a> ·
+    <a href="https://huggingface.co/BoumedineBillal/esp32-pie-asr-kroko-en">the model on Hugging Face</a> ·
+    by Boumedine Billal
+  </footer>
+</main>
+<script>
+  // the model from Hugging Face; config.json first, the file the Hub counts downloads by
+  const REPO = "BoumedineBillal/esp32-pie-asr-kroko-en";
+  const REV = "d97c28a8e35790899e391cce9399829f319dd034";
+  document.getElementById("model").addEventListener("click", async (e) => {
+    e.preventDefault();
+    try {
+      await fetch(`https://huggingface.co/${REPO}/resolve/${REV}/config.json`);
+    } catch (_) {
+      // the download goes on without the count
+    }
+    location.href = `https://huggingface.co/${REPO}/resolve/${REV}/kroko-en-q24-v1.bin?download=true`;
+  });
+</script>
+</body>
+</html>

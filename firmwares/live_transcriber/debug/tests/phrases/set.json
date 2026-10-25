@@ -1,0 +1,1374 @@
+{
+ "words": [
+  "ESP32-P4",
+  "ESP32",
+  "Espressif",
+  "Kroko"
+ ],
+ "sentences": [
+  "turn on the kitchen light",
+  "turn on the light",
+  "turn off the light",
+  "start recording",
+  "stop recording",
+  "next slide",
+  "close the bedroom window",
+  "play the next song",
+  "set the temperature to 20 degrees",
+  "what is the weather tomorrow"
+ ],
+ "clips": [
+  {
+   "id": "en_GB_alan_medium_00",
+   "voice": "en_GB-alan-medium",
+   "group": "word",
+   "text": "The ESP32 is a cheap microcontroller.",
+   "spoken": "The E S P thirty two is a cheap microcontroller.",
+   "phrases": [
+    "ESP32"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_01",
+   "voice": "en_GB-alan-medium",
+   "group": "word",
+   "text": "Espressif makes the ESP32 family of chips.",
+   "spoken": "Espressif makes the E S P thirty two family of chips.",
+   "phrases": [
+    "Espressif",
+    "ESP32"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_02",
+   "voice": "en_GB-alan-medium",
+   "group": "word",
+   "text": "Kroko runs in real time on the ESP32-P4.",
+   "spoken": "Kroko runs in real time on the E S P thirty two P four.",
+   "phrases": [
+    "ESP32-P4",
+    "Kroko"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_03",
+   "voice": "en_GB-alan-medium",
+   "group": "word",
+   "text": "I bought an ESP32-P4 board from Espressif.",
+   "spoken": "I bought an E S P thirty two P four board from Espressif.",
+   "phrases": [
+    "Espressif",
+    "ESP32-P4"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_04",
+   "voice": "en_GB-alan-medium",
+   "group": "word",
+   "text": "Can the ESP32 run Kroko without a network?",
+   "spoken": "Can the E S P thirty two run Kroko without a network?",
+   "phrases": [
+    "ESP32",
+    "Kroko"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_05",
+   "voice": "en_GB-alan-medium",
+   "group": "word",
+   "text": "Espressif ships the ESP32-P4 with a camera interface.",
+   "spoken": "Espressif ships the E S P thirty two P four with a camera interface.",
+   "phrases": [
+    "Espressif",
+    "ESP32-P4"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_06",
+   "voice": "en_GB-alan-medium",
+   "group": "word",
+   "text": "Kroko is a streaming speech recognizer.",
+   "spoken": "Kroko is a streaming speech recognizer.",
+   "phrases": [
+    "Kroko"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_07",
+   "voice": "en_GB-alan-medium",
+   "group": "word",
+   "text": "We flashed the firmware onto the ESP32.",
+   "spoken": "We flashed the firmware onto the E S P thirty two.",
+   "phrases": [
+    "ESP32"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_08",
+   "voice": "en_GB-alan-medium",
+   "group": "word",
+   "text": "The new ESP32-P4 board arrived today.",
+   "spoken": "The new E S P thirty two P four board arrived today.",
+   "phrases": [
+    "ESP32-P4"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_09",
+   "voice": "en_GB-alan-medium",
+   "group": "word",
+   "text": "Espressif sells the chips in large numbers.",
+   "spoken": "Espressif sells the chips in large numbers.",
+   "phrases": [
+    "Espressif"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_10",
+   "voice": "en_GB-alan-medium",
+   "group": "sentence",
+   "text": "Turn on the light.",
+   "spoken": "Turn on the light.",
+   "phrases": [
+    "turn on the light"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_11",
+   "voice": "en_GB-alan-medium",
+   "group": "sentence",
+   "text": "Please turn off the light.",
+   "spoken": "Please turn off the light.",
+   "phrases": [
+    "turn off the light"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_12",
+   "voice": "en_GB-alan-medium",
+   "group": "sentence",
+   "text": "Start recording.",
+   "spoken": "Start recording.",
+   "phrases": [
+    "start recording"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_13",
+   "voice": "en_GB-alan-medium",
+   "group": "sentence",
+   "text": "Stop recording now.",
+   "spoken": "Stop recording now.",
+   "phrases": [
+    "stop recording"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_14",
+   "voice": "en_GB-alan-medium",
+   "group": "sentence",
+   "text": "Next slide.",
+   "spoken": "Next slide.",
+   "phrases": [
+    "next slide"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_15",
+   "voice": "en_GB-alan-medium",
+   "group": "sentence",
+   "text": "Turn on the kitchen light.",
+   "spoken": "Turn on the kitchen light.",
+   "phrases": [
+    "turn on the kitchen light"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_16",
+   "voice": "en_GB-alan-medium",
+   "group": "sentence",
+   "text": "Close the bedroom window.",
+   "spoken": "Close the bedroom window.",
+   "phrases": [
+    "close the bedroom window"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_17",
+   "voice": "en_GB-alan-medium",
+   "group": "sentence",
+   "text": "Play the next song.",
+   "spoken": "Play the next song.",
+   "phrases": [
+    "play the next song"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_18",
+   "voice": "en_GB-alan-medium",
+   "group": "sentence",
+   "text": "Set the temperature to 20 degrees.",
+   "spoken": "Set the temperature to twenty degrees.",
+   "phrases": [
+    "set the temperature to 20 degrees"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_19",
+   "voice": "en_GB-alan-medium",
+   "group": "sentence",
+   "text": "What is the weather tomorrow?",
+   "spoken": "What is the weather tomorrow?",
+   "phrases": [
+    "what is the weather tomorrow"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_20",
+   "voice": "en_GB-alan-medium",
+   "group": "sentence",
+   "text": "It is dark, turn on the kitchen light.",
+   "spoken": "It is dark, turn on the kitchen light.",
+   "phrases": [
+    "turn on the kitchen light"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_21",
+   "voice": "en_GB-alan-medium",
+   "group": "sentence",
+   "text": "When the meeting ends, stop recording.",
+   "spoken": "When the meeting ends, stop recording.",
+   "phrases": [
+    "stop recording"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_22",
+   "voice": "en_GB-alan-medium",
+   "group": "sentence",
+   "text": "Please close the bedroom window and turn off the light.",
+   "spoken": "Please close the bedroom window and turn off the light.",
+   "phrases": [
+    "close the bedroom window",
+    "turn off the light"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_23",
+   "voice": "en_GB-alan-medium",
+   "group": "sentence",
+   "text": "Play the next song and turn on the light.",
+   "spoken": "Play the next song and turn on the light.",
+   "phrases": [
+    "play the next song",
+    "turn on the light"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_24",
+   "voice": "en_GB-alan-medium",
+   "group": "sentence",
+   "text": "Set the temperature to 20 degrees and close the bedroom window.",
+   "spoken": "Set the temperature to twenty degrees and close the bedroom window.",
+   "phrases": [
+    "set the temperature to 20 degrees",
+    "close the bedroom window"
+   ]
+  },
+  {
+   "id": "en_GB_alan_medium_25",
+   "voice": "en_GB-alan-medium",
+   "group": "none",
+   "text": "The kitchen was warm and bright.",
+   "spoken": "The kitchen was warm and bright.",
+   "phrases": []
+  },
+  {
+   "id": "en_GB_alan_medium_26",
+   "voice": "en_GB-alan-medium",
+   "group": "none",
+   "text": "She closed the book and went to sleep.",
+   "spoken": "She closed the book and went to sleep.",
+   "phrases": []
+  },
+  {
+   "id": "en_GB_alan_medium_27",
+   "voice": "en_GB-alan-medium",
+   "group": "none",
+   "text": "The weather was cold last winter.",
+   "spoken": "The weather was cold last winter.",
+   "phrases": []
+  },
+  {
+   "id": "en_GB_alan_medium_28",
+   "voice": "en_GB-alan-medium",
+   "group": "none",
+   "text": "He played the piano for an hour.",
+   "spoken": "He played the piano for an hour.",
+   "phrases": []
+  },
+  {
+   "id": "en_GB_alan_medium_29",
+   "voice": "en_GB-alan-medium",
+   "group": "none",
+   "text": "The light from the window was soft.",
+   "spoken": "The light from the window was soft.",
+   "phrases": []
+  },
+  {
+   "id": "en_GB_alan_medium_30",
+   "voice": "en_GB-alan-medium",
+   "group": "none",
+   "text": "We recorded the interview yesterday.",
+   "spoken": "We recorded the interview yesterday.",
+   "phrases": []
+  },
+  {
+   "id": "en_GB_alan_medium_31",
+   "voice": "en_GB-alan-medium",
+   "group": "none",
+   "text": "The temperature dropped quickly at night.",
+   "spoken": "The temperature dropped quickly at night.",
+   "phrases": []
+  },
+  {
+   "id": "en_GB_alan_medium_32",
+   "voice": "en_GB-alan-medium",
+   "group": "none",
+   "text": "Tomorrow we will visit the museum.",
+   "spoken": "Tomorrow we will visit the museum.",
+   "phrases": []
+  },
+  {
+   "id": "en_GB_alan_medium_33",
+   "voice": "en_GB-alan-medium",
+   "group": "none",
+   "text": "The bedroom has a large window.",
+   "spoken": "The bedroom has a large window.",
+   "phrases": []
+  },
+  {
+   "id": "en_GB_alan_medium_34",
+   "voice": "en_GB-alan-medium",
+   "group": "none",
+   "text": "The next train leaves at noon.",
+   "spoken": "The next train leaves at noon.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_amy_medium_00",
+   "voice": "en_US-amy-medium",
+   "group": "word",
+   "text": "The ESP32 is a cheap microcontroller.",
+   "spoken": "The E S P thirty two is a cheap microcontroller.",
+   "phrases": [
+    "ESP32"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_01",
+   "voice": "en_US-amy-medium",
+   "group": "word",
+   "text": "Espressif makes the ESP32 family of chips.",
+   "spoken": "Espressif makes the E S P thirty two family of chips.",
+   "phrases": [
+    "Espressif",
+    "ESP32"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_02",
+   "voice": "en_US-amy-medium",
+   "group": "word",
+   "text": "Kroko runs in real time on the ESP32-P4.",
+   "spoken": "Kroko runs in real time on the E S P thirty two P four.",
+   "phrases": [
+    "ESP32-P4",
+    "Kroko"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_03",
+   "voice": "en_US-amy-medium",
+   "group": "word",
+   "text": "I bought an ESP32-P4 board from Espressif.",
+   "spoken": "I bought an E S P thirty two P four board from Espressif.",
+   "phrases": [
+    "Espressif",
+    "ESP32-P4"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_04",
+   "voice": "en_US-amy-medium",
+   "group": "word",
+   "text": "Can the ESP32 run Kroko without a network?",
+   "spoken": "Can the E S P thirty two run Kroko without a network?",
+   "phrases": [
+    "ESP32",
+    "Kroko"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_05",
+   "voice": "en_US-amy-medium",
+   "group": "word",
+   "text": "Espressif ships the ESP32-P4 with a camera interface.",
+   "spoken": "Espressif ships the E S P thirty two P four with a camera interface.",
+   "phrases": [
+    "Espressif",
+    "ESP32-P4"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_06",
+   "voice": "en_US-amy-medium",
+   "group": "word",
+   "text": "Kroko is a streaming speech recognizer.",
+   "spoken": "Kroko is a streaming speech recognizer.",
+   "phrases": [
+    "Kroko"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_07",
+   "voice": "en_US-amy-medium",
+   "group": "word",
+   "text": "We flashed the firmware onto the ESP32.",
+   "spoken": "We flashed the firmware onto the E S P thirty two.",
+   "phrases": [
+    "ESP32"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_08",
+   "voice": "en_US-amy-medium",
+   "group": "word",
+   "text": "The new ESP32-P4 board arrived today.",
+   "spoken": "The new E S P thirty two P four board arrived today.",
+   "phrases": [
+    "ESP32-P4"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_09",
+   "voice": "en_US-amy-medium",
+   "group": "word",
+   "text": "Espressif sells the chips in large numbers.",
+   "spoken": "Espressif sells the chips in large numbers.",
+   "phrases": [
+    "Espressif"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_10",
+   "voice": "en_US-amy-medium",
+   "group": "sentence",
+   "text": "Turn on the light.",
+   "spoken": "Turn on the light.",
+   "phrases": [
+    "turn on the light"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_11",
+   "voice": "en_US-amy-medium",
+   "group": "sentence",
+   "text": "Please turn off the light.",
+   "spoken": "Please turn off the light.",
+   "phrases": [
+    "turn off the light"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_12",
+   "voice": "en_US-amy-medium",
+   "group": "sentence",
+   "text": "Start recording.",
+   "spoken": "Start recording.",
+   "phrases": [
+    "start recording"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_13",
+   "voice": "en_US-amy-medium",
+   "group": "sentence",
+   "text": "Stop recording now.",
+   "spoken": "Stop recording now.",
+   "phrases": [
+    "stop recording"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_14",
+   "voice": "en_US-amy-medium",
+   "group": "sentence",
+   "text": "Next slide.",
+   "spoken": "Next slide.",
+   "phrases": [
+    "next slide"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_15",
+   "voice": "en_US-amy-medium",
+   "group": "sentence",
+   "text": "Turn on the kitchen light.",
+   "spoken": "Turn on the kitchen light.",
+   "phrases": [
+    "turn on the kitchen light"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_16",
+   "voice": "en_US-amy-medium",
+   "group": "sentence",
+   "text": "Close the bedroom window.",
+   "spoken": "Close the bedroom window.",
+   "phrases": [
+    "close the bedroom window"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_17",
+   "voice": "en_US-amy-medium",
+   "group": "sentence",
+   "text": "Play the next song.",
+   "spoken": "Play the next song.",
+   "phrases": [
+    "play the next song"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_18",
+   "voice": "en_US-amy-medium",
+   "group": "sentence",
+   "text": "Set the temperature to 20 degrees.",
+   "spoken": "Set the temperature to twenty degrees.",
+   "phrases": [
+    "set the temperature to 20 degrees"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_19",
+   "voice": "en_US-amy-medium",
+   "group": "sentence",
+   "text": "What is the weather tomorrow?",
+   "spoken": "What is the weather tomorrow?",
+   "phrases": [
+    "what is the weather tomorrow"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_20",
+   "voice": "en_US-amy-medium",
+   "group": "sentence",
+   "text": "It is dark, turn on the kitchen light.",
+   "spoken": "It is dark, turn on the kitchen light.",
+   "phrases": [
+    "turn on the kitchen light"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_21",
+   "voice": "en_US-amy-medium",
+   "group": "sentence",
+   "text": "When the meeting ends, stop recording.",
+   "spoken": "When the meeting ends, stop recording.",
+   "phrases": [
+    "stop recording"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_22",
+   "voice": "en_US-amy-medium",
+   "group": "sentence",
+   "text": "Please close the bedroom window and turn off the light.",
+   "spoken": "Please close the bedroom window and turn off the light.",
+   "phrases": [
+    "close the bedroom window",
+    "turn off the light"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_23",
+   "voice": "en_US-amy-medium",
+   "group": "sentence",
+   "text": "Play the next song and turn on the light.",
+   "spoken": "Play the next song and turn on the light.",
+   "phrases": [
+    "play the next song",
+    "turn on the light"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_24",
+   "voice": "en_US-amy-medium",
+   "group": "sentence",
+   "text": "Set the temperature to 20 degrees and close the bedroom window.",
+   "spoken": "Set the temperature to twenty degrees and close the bedroom window.",
+   "phrases": [
+    "set the temperature to 20 degrees",
+    "close the bedroom window"
+   ]
+  },
+  {
+   "id": "en_US_amy_medium_25",
+   "voice": "en_US-amy-medium",
+   "group": "none",
+   "text": "The kitchen was warm and bright.",
+   "spoken": "The kitchen was warm and bright.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_amy_medium_26",
+   "voice": "en_US-amy-medium",
+   "group": "none",
+   "text": "She closed the book and went to sleep.",
+   "spoken": "She closed the book and went to sleep.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_amy_medium_27",
+   "voice": "en_US-amy-medium",
+   "group": "none",
+   "text": "The weather was cold last winter.",
+   "spoken": "The weather was cold last winter.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_amy_medium_28",
+   "voice": "en_US-amy-medium",
+   "group": "none",
+   "text": "He played the piano for an hour.",
+   "spoken": "He played the piano for an hour.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_amy_medium_29",
+   "voice": "en_US-amy-medium",
+   "group": "none",
+   "text": "The light from the window was soft.",
+   "spoken": "The light from the window was soft.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_amy_medium_30",
+   "voice": "en_US-amy-medium",
+   "group": "none",
+   "text": "We recorded the interview yesterday.",
+   "spoken": "We recorded the interview yesterday.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_amy_medium_31",
+   "voice": "en_US-amy-medium",
+   "group": "none",
+   "text": "The temperature dropped quickly at night.",
+   "spoken": "The temperature dropped quickly at night.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_amy_medium_32",
+   "voice": "en_US-amy-medium",
+   "group": "none",
+   "text": "Tomorrow we will visit the museum.",
+   "spoken": "Tomorrow we will visit the museum.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_amy_medium_33",
+   "voice": "en_US-amy-medium",
+   "group": "none",
+   "text": "The bedroom has a large window.",
+   "spoken": "The bedroom has a large window.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_amy_medium_34",
+   "voice": "en_US-amy-medium",
+   "group": "none",
+   "text": "The next train leaves at noon.",
+   "spoken": "The next train leaves at noon.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_lessac_medium_00",
+   "voice": "en_US-lessac-medium",
+   "group": "word",
+   "text": "The ESP32 is a cheap microcontroller.",
+   "spoken": "The E S P thirty two is a cheap microcontroller.",
+   "phrases": [
+    "ESP32"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_01",
+   "voice": "en_US-lessac-medium",
+   "group": "word",
+   "text": "Espressif makes the ESP32 family of chips.",
+   "spoken": "Espressif makes the E S P thirty two family of chips.",
+   "phrases": [
+    "Espressif",
+    "ESP32"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_02",
+   "voice": "en_US-lessac-medium",
+   "group": "word",
+   "text": "Kroko runs in real time on the ESP32-P4.",
+   "spoken": "Kroko runs in real time on the E S P thirty two P four.",
+   "phrases": [
+    "ESP32-P4",
+    "Kroko"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_03",
+   "voice": "en_US-lessac-medium",
+   "group": "word",
+   "text": "I bought an ESP32-P4 board from Espressif.",
+   "spoken": "I bought an E S P thirty two P four board from Espressif.",
+   "phrases": [
+    "Espressif",
+    "ESP32-P4"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_04",
+   "voice": "en_US-lessac-medium",
+   "group": "word",
+   "text": "Can the ESP32 run Kroko without a network?",
+   "spoken": "Can the E S P thirty two run Kroko without a network?",
+   "phrases": [
+    "ESP32",
+    "Kroko"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_05",
+   "voice": "en_US-lessac-medium",
+   "group": "word",
+   "text": "Espressif ships the ESP32-P4 with a camera interface.",
+   "spoken": "Espressif ships the E S P thirty two P four with a camera interface.",
+   "phrases": [
+    "Espressif",
+    "ESP32-P4"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_06",
+   "voice": "en_US-lessac-medium",
+   "group": "word",
+   "text": "Kroko is a streaming speech recognizer.",
+   "spoken": "Kroko is a streaming speech recognizer.",
+   "phrases": [
+    "Kroko"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_07",
+   "voice": "en_US-lessac-medium",
+   "group": "word",
+   "text": "We flashed the firmware onto the ESP32.",
+   "spoken": "We flashed the firmware onto the E S P thirty two.",
+   "phrases": [
+    "ESP32"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_08",
+   "voice": "en_US-lessac-medium",
+   "group": "word",
+   "text": "The new ESP32-P4 board arrived today.",
+   "spoken": "The new E S P thirty two P four board arrived today.",
+   "phrases": [
+    "ESP32-P4"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_09",
+   "voice": "en_US-lessac-medium",
+   "group": "word",
+   "text": "Espressif sells the chips in large numbers.",
+   "spoken": "Espressif sells the chips in large numbers.",
+   "phrases": [
+    "Espressif"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_10",
+   "voice": "en_US-lessac-medium",
+   "group": "sentence",
+   "text": "Turn on the light.",
+   "spoken": "Turn on the light.",
+   "phrases": [
+    "turn on the light"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_11",
+   "voice": "en_US-lessac-medium",
+   "group": "sentence",
+   "text": "Please turn off the light.",
+   "spoken": "Please turn off the light.",
+   "phrases": [
+    "turn off the light"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_12",
+   "voice": "en_US-lessac-medium",
+   "group": "sentence",
+   "text": "Start recording.",
+   "spoken": "Start recording.",
+   "phrases": [
+    "start recording"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_13",
+   "voice": "en_US-lessac-medium",
+   "group": "sentence",
+   "text": "Stop recording now.",
+   "spoken": "Stop recording now.",
+   "phrases": [
+    "stop recording"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_14",
+   "voice": "en_US-lessac-medium",
+   "group": "sentence",
+   "text": "Next slide.",
+   "spoken": "Next slide.",
+   "phrases": [
+    "next slide"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_15",
+   "voice": "en_US-lessac-medium",
+   "group": "sentence",
+   "text": "Turn on the kitchen light.",
+   "spoken": "Turn on the kitchen light.",
+   "phrases": [
+    "turn on the kitchen light"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_16",
+   "voice": "en_US-lessac-medium",
+   "group": "sentence",
+   "text": "Close the bedroom window.",
+   "spoken": "Close the bedroom window.",
+   "phrases": [
+    "close the bedroom window"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_17",
+   "voice": "en_US-lessac-medium",
+   "group": "sentence",
+   "text": "Play the next song.",
+   "spoken": "Play the next song.",
+   "phrases": [
+    "play the next song"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_18",
+   "voice": "en_US-lessac-medium",
+   "group": "sentence",
+   "text": "Set the temperature to 20 degrees.",
+   "spoken": "Set the temperature to twenty degrees.",
+   "phrases": [
+    "set the temperature to 20 degrees"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_19",
+   "voice": "en_US-lessac-medium",
+   "group": "sentence",
+   "text": "What is the weather tomorrow?",
+   "spoken": "What is the weather tomorrow?",
+   "phrases": [
+    "what is the weather tomorrow"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_20",
+   "voice": "en_US-lessac-medium",
+   "group": "sentence",
+   "text": "It is dark, turn on the kitchen light.",
+   "spoken": "It is dark, turn on the kitchen light.",
+   "phrases": [
+    "turn on the kitchen light"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_21",
+   "voice": "en_US-lessac-medium",
+   "group": "sentence",
+   "text": "When the meeting ends, stop recording.",
+   "spoken": "When the meeting ends, stop recording.",
+   "phrases": [
+    "stop recording"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_22",
+   "voice": "en_US-lessac-medium",
+   "group": "sentence",
+   "text": "Please close the bedroom window and turn off the light.",
+   "spoken": "Please close the bedroom window and turn off the light.",
+   "phrases": [
+    "close the bedroom window",
+    "turn off the light"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_23",
+   "voice": "en_US-lessac-medium",
+   "group": "sentence",
+   "text": "Play the next song and turn on the light.",
+   "spoken": "Play the next song and turn on the light.",
+   "phrases": [
+    "play the next song",
+    "turn on the light"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_24",
+   "voice": "en_US-lessac-medium",
+   "group": "sentence",
+   "text": "Set the temperature to 20 degrees and close the bedroom window.",
+   "spoken": "Set the temperature to twenty degrees and close the bedroom window.",
+   "phrases": [
+    "set the temperature to 20 degrees",
+    "close the bedroom window"
+   ]
+  },
+  {
+   "id": "en_US_lessac_medium_25",
+   "voice": "en_US-lessac-medium",
+   "group": "none",
+   "text": "The kitchen was warm and bright.",
+   "spoken": "The kitchen was warm and bright.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_lessac_medium_26",
+   "voice": "en_US-lessac-medium",
+   "group": "none",
+   "text": "She closed the book and went to sleep.",
+   "spoken": "She closed the book and went to sleep.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_lessac_medium_27",
+   "voice": "en_US-lessac-medium",
+   "group": "none",
+   "text": "The weather was cold last winter.",
+   "spoken": "The weather was cold last winter.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_lessac_medium_28",
+   "voice": "en_US-lessac-medium",
+   "group": "none",
+   "text": "He played the piano for an hour.",
+   "spoken": "He played the piano for an hour.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_lessac_medium_29",
+   "voice": "en_US-lessac-medium",
+   "group": "none",
+   "text": "The light from the window was soft.",
+   "spoken": "The light from the window was soft.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_lessac_medium_30",
+   "voice": "en_US-lessac-medium",
+   "group": "none",
+   "text": "We recorded the interview yesterday.",
+   "spoken": "We recorded the interview yesterday.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_lessac_medium_31",
+   "voice": "en_US-lessac-medium",
+   "group": "none",
+   "text": "The temperature dropped quickly at night.",
+   "spoken": "The temperature dropped quickly at night.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_lessac_medium_32",
+   "voice": "en_US-lessac-medium",
+   "group": "none",
+   "text": "Tomorrow we will visit the museum.",
+   "spoken": "Tomorrow we will visit the museum.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_lessac_medium_33",
+   "voice": "en_US-lessac-medium",
+   "group": "none",
+   "text": "The bedroom has a large window.",
+   "spoken": "The bedroom has a large window.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_lessac_medium_34",
+   "voice": "en_US-lessac-medium",
+   "group": "none",
+   "text": "The next train leaves at noon.",
+   "spoken": "The next train leaves at noon.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_ryan_medium_00",
+   "voice": "en_US-ryan-medium",
+   "group": "word",
+   "text": "The ESP32 is a cheap microcontroller.",
+   "spoken": "The E S P thirty two is a cheap microcontroller.",
+   "phrases": [
+    "ESP32"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_01",
+   "voice": "en_US-ryan-medium",
+   "group": "word",
+   "text": "Espressif makes the ESP32 family of chips.",
+   "spoken": "Espressif makes the E S P thirty two family of chips.",
+   "phrases": [
+    "Espressif",
+    "ESP32"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_02",
+   "voice": "en_US-ryan-medium",
+   "group": "word",
+   "text": "Kroko runs in real time on the ESP32-P4.",
+   "spoken": "Kroko runs in real time on the E S P thirty two P four.",
+   "phrases": [
+    "ESP32-P4",
+    "Kroko"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_03",
+   "voice": "en_US-ryan-medium",
+   "group": "word",
+   "text": "I bought an ESP32-P4 board from Espressif.",
+   "spoken": "I bought an E S P thirty two P four board from Espressif.",
+   "phrases": [
+    "Espressif",
+    "ESP32-P4"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_04",
+   "voice": "en_US-ryan-medium",
+   "group": "word",
+   "text": "Can the ESP32 run Kroko without a network?",
+   "spoken": "Can the E S P thirty two run Kroko without a network?",
+   "phrases": [
+    "ESP32",
+    "Kroko"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_05",
+   "voice": "en_US-ryan-medium",
+   "group": "word",
+   "text": "Espressif ships the ESP32-P4 with a camera interface.",
+   "spoken": "Espressif ships the E S P thirty two P four with a camera interface.",
+   "phrases": [
+    "Espressif",
+    "ESP32-P4"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_06",
+   "voice": "en_US-ryan-medium",
+   "group": "word",
+   "text": "Kroko is a streaming speech recognizer.",
+   "spoken": "Kroko is a streaming speech recognizer.",
+   "phrases": [
+    "Kroko"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_07",
+   "voice": "en_US-ryan-medium",
+   "group": "word",
+   "text": "We flashed the firmware onto the ESP32.",
+   "spoken": "We flashed the firmware onto the E S P thirty two.",
+   "phrases": [
+    "ESP32"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_08",
+   "voice": "en_US-ryan-medium",
+   "group": "word",
+   "text": "The new ESP32-P4 board arrived today.",
+   "spoken": "The new E S P thirty two P four board arrived today.",
+   "phrases": [
+    "ESP32-P4"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_09",
+   "voice": "en_US-ryan-medium",
+   "group": "word",
+   "text": "Espressif sells the chips in large numbers.",
+   "spoken": "Espressif sells the chips in large numbers.",
+   "phrases": [
+    "Espressif"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_10",
+   "voice": "en_US-ryan-medium",
+   "group": "sentence",
+   "text": "Turn on the light.",
+   "spoken": "Turn on the light.",
+   "phrases": [
+    "turn on the light"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_11",
+   "voice": "en_US-ryan-medium",
+   "group": "sentence",
+   "text": "Please turn off the light.",
+   "spoken": "Please turn off the light.",
+   "phrases": [
+    "turn off the light"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_12",
+   "voice": "en_US-ryan-medium",
+   "group": "sentence",
+   "text": "Start recording.",
+   "spoken": "Start recording.",
+   "phrases": [
+    "start recording"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_13",
+   "voice": "en_US-ryan-medium",
+   "group": "sentence",
+   "text": "Stop recording now.",
+   "spoken": "Stop recording now.",
+   "phrases": [
+    "stop recording"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_14",
+   "voice": "en_US-ryan-medium",
+   "group": "sentence",
+   "text": "Next slide.",
+   "spoken": "Next slide.",
+   "phrases": [
+    "next slide"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_15",
+   "voice": "en_US-ryan-medium",
+   "group": "sentence",
+   "text": "Turn on the kitchen light.",
+   "spoken": "Turn on the kitchen light.",
+   "phrases": [
+    "turn on the kitchen light"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_16",
+   "voice": "en_US-ryan-medium",
+   "group": "sentence",
+   "text": "Close the bedroom window.",
+   "spoken": "Close the bedroom window.",
+   "phrases": [
+    "close the bedroom window"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_17",
+   "voice": "en_US-ryan-medium",
+   "group": "sentence",
+   "text": "Play the next song.",
+   "spoken": "Play the next song.",
+   "phrases": [
+    "play the next song"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_18",
+   "voice": "en_US-ryan-medium",
+   "group": "sentence",
+   "text": "Set the temperature to 20 degrees.",
+   "spoken": "Set the temperature to twenty degrees.",
+   "phrases": [
+    "set the temperature to 20 degrees"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_19",
+   "voice": "en_US-ryan-medium",
+   "group": "sentence",
+   "text": "What is the weather tomorrow?",
+   "spoken": "What is the weather tomorrow?",
+   "phrases": [
+    "what is the weather tomorrow"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_20",
+   "voice": "en_US-ryan-medium",
+   "group": "sentence",
+   "text": "It is dark, turn on the kitchen light.",
+   "spoken": "It is dark, turn on the kitchen light.",
+   "phrases": [
+    "turn on the kitchen light"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_21",
+   "voice": "en_US-ryan-medium",
+   "group": "sentence",
+   "text": "When the meeting ends, stop recording.",
+   "spoken": "When the meeting ends, stop recording.",
+   "phrases": [
+    "stop recording"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_22",
+   "voice": "en_US-ryan-medium",
+   "group": "sentence",
+   "text": "Please close the bedroom window and turn off the light.",
+   "spoken": "Please close the bedroom window and turn off the light.",
+   "phrases": [
+    "close the bedroom window",
+    "turn off the light"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_23",
+   "voice": "en_US-ryan-medium",
+   "group": "sentence",
+   "text": "Play the next song and turn on the light.",
+   "spoken": "Play the next song and turn on the light.",
+   "phrases": [
+    "play the next song",
+    "turn on the light"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_24",
+   "voice": "en_US-ryan-medium",
+   "group": "sentence",
+   "text": "Set the temperature to 20 degrees and close the bedroom window.",
+   "spoken": "Set the temperature to twenty degrees and close the bedroom window.",
+   "phrases": [
+    "set the temperature to 20 degrees",
+    "close the bedroom window"
+   ]
+  },
+  {
+   "id": "en_US_ryan_medium_25",
+   "voice": "en_US-ryan-medium",
+   "group": "none",
+   "text": "The kitchen was warm and bright.",
+   "spoken": "The kitchen was warm and bright.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_ryan_medium_26",
+   "voice": "en_US-ryan-medium",
+   "group": "none",
+   "text": "She closed the book and went to sleep.",
+   "spoken": "She closed the book and went to sleep.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_ryan_medium_27",
+   "voice": "en_US-ryan-medium",
+   "group": "none",
+   "text": "The weather was cold last winter.",
+   "spoken": "The weather was cold last winter.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_ryan_medium_28",
+   "voice": "en_US-ryan-medium",
+   "group": "none",
+   "text": "He played the piano for an hour.",
+   "spoken": "He played the piano for an hour.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_ryan_medium_29",
+   "voice": "en_US-ryan-medium",
+   "group": "none",
+   "text": "The light from the window was soft.",
+   "spoken": "The light from the window was soft.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_ryan_medium_30",
+   "voice": "en_US-ryan-medium",
+   "group": "none",
+   "text": "We recorded the interview yesterday.",
+   "spoken": "We recorded the interview yesterday.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_ryan_medium_31",
+   "voice": "en_US-ryan-medium",
+   "group": "none",
+   "text": "The temperature dropped quickly at night.",
+   "spoken": "The temperature dropped quickly at night.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_ryan_medium_32",
+   "voice": "en_US-ryan-medium",
+   "group": "none",
+   "text": "Tomorrow we will visit the museum.",
+   "spoken": "Tomorrow we will visit the museum.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_ryan_medium_33",
+   "voice": "en_US-ryan-medium",
+   "group": "none",
+   "text": "The bedroom has a large window.",
+   "spoken": "The bedroom has a large window.",
+   "phrases": []
+  },
+  {
+   "id": "en_US_ryan_medium_34",
+   "voice": "en_US-ryan-medium",
+   "group": "none",
+   "text": "The next train leaves at noon.",
+   "spoken": "The next train leaves at noon.",
+   "phrases": []
+  }
+ ]
+}

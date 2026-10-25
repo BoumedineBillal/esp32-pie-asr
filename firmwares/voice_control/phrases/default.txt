@@ -1,0 +1,18 @@
+# Phrases: while they are on, the recogniser listens harder for these words and sentences (the Phrases screen
+# switches each one, and all of them). One word or sentence per line; a line starting with # is a note.
+# When the model writes a word differently from how it should look, write the look first, then " = " and how the
+# model writes it (as it hears it), more ways after " | ". The screen shows at most 10 words and 10 sentences.
+ESP32 = ESP thirty two | ESP thirty-two
+ESP32-P4 = ESP thirty two P four | ESP thirty-two P four
+Espressif
+Kroko
+turn on the light
+turn off the light
+start recording
+stop recording
+next slide
+turn on the kitchen light
+close the bedroom window
+play the next song
+set the temperature to 20 degrees = set the temperature to twenty degrees
+what is the weather tomorrow

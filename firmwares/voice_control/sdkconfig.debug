@@ -1,0 +1,12 @@
+# SPDX-FileCopyrightText: 2026 Boumedine Billal
+# SPDX-License-Identifier: Apache-2.0
+
+# with sdkconfig.defaults: the debug link on the USB High-Speed port (one vendor interface, WinUSB on the PC)
+#   idf.py -B build_debug -D SDKCONFIG=build_debug/sdkconfig -D SDKCONFIG_DEFAULTS="sdkconfig.defaults;sdkconfig.debug" build
+CONFIG_VOICE_CONTROL_DEBUG_LINK=y
+CONFIG_TINYUSB_CDC_ENABLED=n
+CONFIG_TINYUSB_CDC_COUNT=0
+CONFIG_TINYUSB_VENDOR_COUNT=1
+CONFIG_TINYUSB_VENDOR_EPSIZE=8192
+CONFIG_TINYUSB_VENDOR_TX_BUFSIZE=16384
+CONFIG_TINYUSB_VENDOR_RX_BUFSIZE=4096

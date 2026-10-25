@@ -1,0 +1,27 @@
+ok live_transcriber 1 idle, the model from the microSD card
+before: ok info psram free 651072 largest 540672 | internal free 73407 largest 31744
+ok start
+   10 s: chunks 7, audio 10.0 s, behind 1040 ms, x_rt 0.709, chunk mean 907 max 933 ms, lost 0, clipped 0, words 0 (delay median 0, p95 0 ms), PSRAM free 651072 (lowest 543324), internal 73407
+   20 s: chunks 15, audio 20.3 s, behind 1100 ms, x_rt 0.710, chunk mean 908 max 933 ms, lost 0, clipped 0, words 0 (delay median 0, p95 0 ms), PSRAM free 651072 (lowest 543324), internal 73407
+   31 s: chunks 23, audio 30.5 s, behind 1060 ms, x_rt 0.713, chunk mean 911 max 933 ms, lost 0, clipped 0, words 0 (delay median 0, p95 0 ms), PSRAM free 651072 (lowest 543324), internal 73407
+   41 s: chunks 31, audio 40.8 s, behind 1070 ms, x_rt 0.709, chunk mean 907 max 933 ms, lost 0, clipped 0, words 0 (delay median 0, p95 0 ms), PSRAM free 651072 (lowest 543324), internal 73407
+   51 s: chunks 39, audio 51.0 s, behind 1130 ms, x_rt 0.708, chunk mean 905 max 933 ms, lost 0, clipped 0, words 0 (delay median 0, p95 0 ms), PSRAM free 651072 (lowest 543324), internal 73407
+   61 s: chunks 47, audio 61.2 s, behind 1040 ms, x_rt 0.706, chunk mean 903 max 933 ms, lost 0, clipped 0, words 0 (delay median 0, p95 0 ms), PSRAM free 651072 (lowest 543324), internal 73407
+   71 s: chunks 55, audio 71.5 s, behind 1050 ms, x_rt 0.706, chunk mean 903 max 933 ms, lost 0, clipped 0, words 0 (delay median 0, p95 0 ms), PSRAM free 651072 (lowest 543324), internal 73407
+   82 s: chunks 63, audio 81.7 s, behind 1060 ms, x_rt 0.707, chunk mean 903 max 933 ms, lost 0, clipped 0, words 0 (delay median 0, p95 0 ms), PSRAM free 651072 (lowest 543324), internal 73407
+   92 s: chunks 71, audio 92.0 s, behind 1070 ms, x_rt 0.707, chunk mean 904 max 933 ms, lost 0, clipped 0, words 0 (delay median 0, p95 0 ms), PSRAM free 651072 (lowest 543324), internal 73407
+  102 s: chunks 79, audio 102.2 s, behind 1080 ms, x_rt 0.707, chunk mean 904 max 935 ms, lost 0, clipped 0, words 0 (delay median 0, p95 0 ms), PSRAM free 651072 (lowest 543324), internal 73407
+  112 s: chunks 87, audio 112.4 s, behind 1040 ms, x_rt 0.708, chunk mean 905 max 935 ms, lost 0, clipped 0, words 0 (delay median 0, p95 0 ms), PSRAM free 651072 (lowest 543324), internal 73407
+  123 s: chunks 95, audio 122.7 s, behind 1050 ms, x_rt 0.708, chunk mean 905 max 935 ms, lost 0, clipped 0, words 0 (delay median 0, p95 0 ms), PSRAM free 651072 (lowest 543324), internal 73407
+  133 s: chunks 103, audio 132.9 s, behind 1060 ms, x_rt 0.707, chunk mean 904 max 935 ms, lost 0, clipped 0, words 0 (delay median 0, p95 0 ms), PSRAM free 651072 (lowest 543324), internal 73407
+  143 s: chunks 111, audio 143.2 s, behind 1070 ms, x_rt 0.707, chunk mean 904 max 935 ms, lost 0, clipped 0, words 0 (delay median 0, p95 0 ms), PSRAM free 651072 (lowest 543324), internal 73407
+  153 s: chunks 119, audio 153.4 s, behind 1080 ms, x_rt 0.706, chunk mean 903 max 935 ms, lost 0, clipped 0, words 0 (delay median 0, p95 0 ms), PSRAM free 651072 (lowest 543324), internal 73407
+  164 s: chunks 127, audio 163.6 s, behind 1040 ms, x_rt 0.707, chunk mean 904 max 935 ms, lost 0, clipped 0, words 0 (delay median 0, p95 0 ms), PSRAM free 651072 (lowest 543324), internal 73407
+  174 s: chunks 135, audio 173.8 s, behind 1050 ms, x_rt 0.707, chunk mean 904 max 935 ms, lost 0, clipped 0, words 0 (delay median 0, p95 0 ms), PSRAM free 651072 (lowest 543324), internal 73407
+  184 s: chunks 143, audio 184.1 s, behind 1060 ms, x_rt 0.707, chunk mean 904 max 935 ms, lost 0, clipped 0, words 0 (delay median 0, p95 0 ms), PSRAM free 651072 (lowest 543324), internal 73407
+ok stop
+after: ok info psram free 651072 largest 540672 | internal free 73407 largest 31744
+ok uicheck overflows 0 shrunk 1090 frames 1912 mean_ms 19.6 max_ms 306.2
+3.1 min: 143 chunks for 184.1 s of audio (143.8 expected), behind at most 1130 ms, 0 frames lost, chunk compute mean 904 ms, max 935 ms; PSRAM free 651072 -> 651072 (lowest 543324), internal 73407 -> 73407
+real time: True, nothing lost: True, memory constant: True, words final in time: True (0 words, delay p95 0 ms)
+PASS

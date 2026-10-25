@@ -1,0 +1,15 @@
+ok live_transcriber 1 idle, the model from the microSD card
+ready: ok info psram free 735224 largest 720896 | internal free 73411 largest 31744
+same 1272-128104-0000: 5 chunks, 905.5 ms per chunk (features 14.8, encoder 739.2, search 150.2), crc d67c9326 (PC d67c9326): Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.
+same 1272-128104-0001: 4 chunks, 894.8 ms per chunk (features 15.0, encoder 742.5, search 135.5), crc c15fc1e5 (PC c15fc1e5): nor is Mr. Quilter's manner less interesting than his matter.
+same 1272-128104-0003: 8 chunks, 901.3 ms per chunk (features 15.2, encoder 743.0, search 141.4), crc 77719982 (PC 77719982): He has grave doubts, whether Sir Frederick Layton's work is really Greek after all, and can discover in it but little of rocky Ithaca.
+same 1272-128104-0005: 8 chunks, 893.9 ms per chunk (features 13.8, encoder 744.8, search 133.8), crc 8e640670 (PC 8e640670): It is obviously unnecessary for us to point out how luminous these criticisms are, how delicate an expression.
+same 1272-128104-0006: 5 chunks, 895.1 ms per chunk (features 13.6, encoder 742.8, search 137.0), crc 0bae9590 (PC 0bae9590): Under general principles of art, Mr. Quilter writes with equal lucidity
+same 1272-128104-0007: 8 chunks, 892.7 ms per chunk (features 14.1, encoder 739.4, search 137.5), crc 089093c6 (PC 089093c6): Painting, he tells us, is of a different quality to mathematics, and finish in art is adding more fact.
+same 1272-128104-0008: 5 chunks, 889.5 ms per chunk (features 12.4, encoder 744.0, search 132.0), crc bc3e000b (PC bc3e000b): As for etchings, there are of two kinds, British and foreign.
+same 1272-128104-0010: 5 chunks, 893.8 ms per chunk (features 13.4, encoder 741.6, search 137.0), crc ab66d70e (PC ab66d70e): near the fire, and the ornaments Fred brought home from India on the mental board.
+after the clips: ok info psram free 700392 largest 557056 | internal free 73411 largest 31744
+the screen meanwhile: ok uicheck overflows 0 shrunk 219 frames 385 mean_ms 51.8 max_ms 396.4; 8.6 frames/s, 45 % of core 1
+ok stats chunks 5 listening 5600 behind 0 x_rt 0.698 mean 893 median 894 p95 915 max 915 lost 0 clipped 0 tokens 35 words 17 delay_median 1940 delay_p95 3860 psram 700392 psram_min 495504 internal 73411 gain 54.0
+8 of 8 clips the same; 895.8 ms per chunk (features 14.0, encoder 742.2, search 138.1; means of the clips)
+PASS

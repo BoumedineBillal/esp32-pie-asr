@@ -1,0 +1,50 @@
+# SPDX-FileCopyrightText: 2026 Boumedine Billal
+# SPDX-License-Identifier: Apache-2.0
+
+name: host
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: build
+        run: |
+          cmake -S pieasr/host -B build/host
+          cmake --build build/host -j
+      - name: unit tests
+        run: ctest --test-dir build/host --output-on-failure
+
+  voice-rules:
+    # the six demos' rules and worlds (components/voice_rules/host)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: build
+        run: |
+          cmake -S components/voice_rules/host -B build/voice_rules
+          cmake --build build/voice_rules -j
+      - name: tests
+        run: ctest --test-dir build/voice_rules --output-on-failure
+
+  golden:
+    # the 8 clips' encoder CRCs and texts (pieasr/tests/data/golden.json) with the published weights
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/cache@v4
+        with:
+          path: models/kroko-en-q24-v1.bin
+          key: model-kroko-en-q24-v1
+      - name: model
+        run: python3 models/download.py
+      - name: build
+        run: |
+          cmake -S pieasr/host -B build/host -DPIEASR_WEIGHTS=$PWD/models/kroko-en-q24-v1.bin
+          cmake --build build/host -j
+      - name: golden test
+        run: ctest --test-dir build/host --output-on-failure -R golden

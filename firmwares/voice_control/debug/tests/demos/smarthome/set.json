@@ -1,0 +1,1320 @@
+{
+ "clips": [
+  {
+   "id": "en_GB_alan_medium_00",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Turn off the kitchen lights.",
+   "expect": "lights_off:lights@kitchen"
+  },
+  {
+   "id": "en_GB_alan_medium_01",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Turn the bedroom lights on.",
+   "expect": "lights_on:lights@bedroom"
+  },
+  {
+   "id": "en_GB_alan_medium_02",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Lights off everywhere.",
+   "expect": "lights_off:lights@everywhere"
+  },
+  {
+   "id": "en_GB_alan_medium_03",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Set the living room lights to forty percent.",
+   "expect": "set_lights:lights@living room=40"
+  },
+  {
+   "id": "en_GB_alan_medium_04",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Dim the bedroom lights.",
+   "expect": "dim_lights:lights@bedroom"
+  },
+  {
+   "id": "en_GB_alan_medium_05",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Set the thermostat to twenty two degrees.",
+   "expect": "set_temperature:thermostat=22"
+  },
+  {
+   "id": "en_GB_alan_medium_06",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Make it warmer.",
+   "expect": "warmer"
+  },
+  {
+   "id": "en_GB_alan_medium_07",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Turn the heating down.",
+   "expect": "cooler:heating"
+  },
+  {
+   "id": "en_GB_alan_medium_08",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Lock the front door.",
+   "expect": "lock:door@front"
+  },
+  {
+   "id": "en_GB_alan_medium_09",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Unlock the back door.",
+   "expect": "unlock:door@back"
+  },
+  {
+   "id": "en_GB_alan_medium_10",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Lock all the doors.",
+   "expect": "lock:doors@all"
+  },
+  {
+   "id": "en_GB_alan_medium_11",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Open the bedroom blinds.",
+   "expect": "blinds_open:blinds@bedroom"
+  },
+  {
+   "id": "en_GB_alan_medium_12",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Close the blinds in the living room.",
+   "expect": "blinds_close:blinds@living room"
+  },
+  {
+   "id": "en_GB_alan_medium_13",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Play some jazz in the kitchen.",
+   "expect": "play:some jazz@kitchen"
+  },
+  {
+   "id": "en_GB_alan_medium_14",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Stop the music.",
+   "expect": "stop_music:music"
+  },
+  {
+   "id": "en_GB_alan_medium_15",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Turn up the volume.",
+   "expect": "volume_up:volume"
+  },
+  {
+   "id": "en_GB_alan_medium_16",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Next song.",
+   "expect": "next_song"
+  },
+  {
+   "id": "en_GB_alan_medium_17",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "What's the temperature?",
+   "expect": "status"
+  },
+  {
+   "id": "en_GB_alan_medium_18",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Turn off the kitchen lights and lock the front door.",
+   "expect": "lights_off:lights@kitchen; lock:door@front"
+  },
+  {
+   "id": "en_GB_alan_medium_19",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Unlock the back door but not the front.",
+   "expect": "unlock:door@back; -unlock:door@front"
+  },
+  {
+   "id": "en_GB_alan_medium_20",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Turn on the lights in the kitchen and the bedroom.",
+   "expect": "lights_on:lights@kitchen; lights_on:lights@bedroom"
+  },
+  {
+   "id": "en_GB_alan_medium_21",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Close the bedroom blinds and turn off the lights.",
+   "expect": "blinds_close:blinds@bedroom; lights_off:lights"
+  },
+  {
+   "id": "en_GB_alan_medium_22",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Set the bedroom lights to twenty percent and lock the front door.",
+   "expect": "set_lights:lights@bedroom=20; lock:door@front"
+  },
+  {
+   "id": "en_GB_alan_medium_23",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Is the front door locked?",
+   "expect": "status"
+  },
+  {
+   "id": "en_GB_alan_medium_24",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Turn on the bathroom lights.",
+   "expect": "lights_on:lights@bathroom"
+  },
+  {
+   "id": "en_GB_alan_medium_25",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The kitchen lights are beautiful.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_26",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "I turned off the lights before bed.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_27",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The music was too loud last night.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_28",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "We need new blinds for the bedroom.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_29",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Did you lock the door?",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_30",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "It's warmer today than yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_31",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "My neighbour plays the radio all day.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_32",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The heating bill was high this month.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_33",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "I love this song.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_34",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The front door is painted blue.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_35",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "She left the lights on again.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_36",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The temperature outside is lovely.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_37",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Our bathroom needs new tiles.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_38",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "He opened the window for some air.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_39",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Jazz is my favourite music.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_40",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The living room is very cosy.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_41",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The thermostat is in the hallway.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_42",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "I locked myself out yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_43",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "They play music at the cafe.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_44",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Turn left at the next corner.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_45",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The volume of the book is huge.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_46",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Who closed the curtains?",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_00",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Turn off the kitchen lights.",
+   "expect": "lights_off:lights@kitchen"
+  },
+  {
+   "id": "en_US_amy_medium_01",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Turn the bedroom lights on.",
+   "expect": "lights_on:lights@bedroom"
+  },
+  {
+   "id": "en_US_amy_medium_02",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Lights off everywhere.",
+   "expect": "lights_off:lights@everywhere"
+  },
+  {
+   "id": "en_US_amy_medium_03",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Set the living room lights to forty percent.",
+   "expect": "set_lights:lights@living room=40"
+  },
+  {
+   "id": "en_US_amy_medium_04",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Dim the bedroom lights.",
+   "expect": "dim_lights:lights@bedroom"
+  },
+  {
+   "id": "en_US_amy_medium_05",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Set the thermostat to twenty two degrees.",
+   "expect": "set_temperature:thermostat=22"
+  },
+  {
+   "id": "en_US_amy_medium_06",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Make it warmer.",
+   "expect": "warmer"
+  },
+  {
+   "id": "en_US_amy_medium_07",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Turn the heating down.",
+   "expect": "cooler:heating"
+  },
+  {
+   "id": "en_US_amy_medium_08",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Lock the front door.",
+   "expect": "lock:door@front"
+  },
+  {
+   "id": "en_US_amy_medium_09",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Unlock the back door.",
+   "expect": "unlock:door@back"
+  },
+  {
+   "id": "en_US_amy_medium_10",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Lock all the doors.",
+   "expect": "lock:doors@all"
+  },
+  {
+   "id": "en_US_amy_medium_11",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Open the bedroom blinds.",
+   "expect": "blinds_open:blinds@bedroom"
+  },
+  {
+   "id": "en_US_amy_medium_12",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Close the blinds in the living room.",
+   "expect": "blinds_close:blinds@living room"
+  },
+  {
+   "id": "en_US_amy_medium_13",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Play some jazz in the kitchen.",
+   "expect": "play:some jazz@kitchen"
+  },
+  {
+   "id": "en_US_amy_medium_14",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Stop the music.",
+   "expect": "stop_music:music"
+  },
+  {
+   "id": "en_US_amy_medium_15",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Turn up the volume.",
+   "expect": "volume_up:volume"
+  },
+  {
+   "id": "en_US_amy_medium_16",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Next song.",
+   "expect": "next_song"
+  },
+  {
+   "id": "en_US_amy_medium_17",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "What's the temperature?",
+   "expect": "status"
+  },
+  {
+   "id": "en_US_amy_medium_18",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Turn off the kitchen lights and lock the front door.",
+   "expect": "lights_off:lights@kitchen; lock:door@front"
+  },
+  {
+   "id": "en_US_amy_medium_19",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Unlock the back door but not the front.",
+   "expect": "unlock:door@back; -unlock:door@front"
+  },
+  {
+   "id": "en_US_amy_medium_20",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Turn on the lights in the kitchen and the bedroom.",
+   "expect": "lights_on:lights@kitchen; lights_on:lights@bedroom"
+  },
+  {
+   "id": "en_US_amy_medium_21",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Close the bedroom blinds and turn off the lights.",
+   "expect": "blinds_close:blinds@bedroom; lights_off:lights"
+  },
+  {
+   "id": "en_US_amy_medium_22",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Set the bedroom lights to twenty percent and lock the front door.",
+   "expect": "set_lights:lights@bedroom=20; lock:door@front"
+  },
+  {
+   "id": "en_US_amy_medium_23",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Is the front door locked?",
+   "expect": "status"
+  },
+  {
+   "id": "en_US_amy_medium_24",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Turn on the bathroom lights.",
+   "expect": "lights_on:lights@bathroom"
+  },
+  {
+   "id": "en_US_amy_medium_25",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The kitchen lights are beautiful.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_26",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "I turned off the lights before bed.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_27",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The music was too loud last night.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_28",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "We need new blinds for the bedroom.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_29",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Did you lock the door?",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_30",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "It's warmer today than yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_31",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "My neighbour plays the radio all day.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_32",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The heating bill was high this month.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_33",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "I love this song.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_34",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The front door is painted blue.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_35",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "She left the lights on again.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_36",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The temperature outside is lovely.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_37",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Our bathroom needs new tiles.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_38",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "He opened the window for some air.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_39",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Jazz is my favourite music.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_40",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The living room is very cosy.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_41",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The thermostat is in the hallway.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_42",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "I locked myself out yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_43",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "They play music at the cafe.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_44",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Turn left at the next corner.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_45",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The volume of the book is huge.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_46",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Who closed the curtains?",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_00",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Turn off the kitchen lights.",
+   "expect": "lights_off:lights@kitchen"
+  },
+  {
+   "id": "en_US_lessac_medium_01",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Turn the bedroom lights on.",
+   "expect": "lights_on:lights@bedroom"
+  },
+  {
+   "id": "en_US_lessac_medium_02",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Lights off everywhere.",
+   "expect": "lights_off:lights@everywhere"
+  },
+  {
+   "id": "en_US_lessac_medium_03",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Set the living room lights to forty percent.",
+   "expect": "set_lights:lights@living room=40"
+  },
+  {
+   "id": "en_US_lessac_medium_04",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Dim the bedroom lights.",
+   "expect": "dim_lights:lights@bedroom"
+  },
+  {
+   "id": "en_US_lessac_medium_05",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Set the thermostat to twenty two degrees.",
+   "expect": "set_temperature:thermostat=22"
+  },
+  {
+   "id": "en_US_lessac_medium_06",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Make it warmer.",
+   "expect": "warmer"
+  },
+  {
+   "id": "en_US_lessac_medium_07",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Turn the heating down.",
+   "expect": "cooler:heating"
+  },
+  {
+   "id": "en_US_lessac_medium_08",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Lock the front door.",
+   "expect": "lock:door@front"
+  },
+  {
+   "id": "en_US_lessac_medium_09",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Unlock the back door.",
+   "expect": "unlock:door@back"
+  },
+  {
+   "id": "en_US_lessac_medium_10",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Lock all the doors.",
+   "expect": "lock:doors@all"
+  },
+  {
+   "id": "en_US_lessac_medium_11",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Open the bedroom blinds.",
+   "expect": "blinds_open:blinds@bedroom"
+  },
+  {
+   "id": "en_US_lessac_medium_12",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Close the blinds in the living room.",
+   "expect": "blinds_close:blinds@living room"
+  },
+  {
+   "id": "en_US_lessac_medium_13",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Play some jazz in the kitchen.",
+   "expect": "play:some jazz@kitchen"
+  },
+  {
+   "id": "en_US_lessac_medium_14",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Stop the music.",
+   "expect": "stop_music:music"
+  },
+  {
+   "id": "en_US_lessac_medium_15",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Turn up the volume.",
+   "expect": "volume_up:volume"
+  },
+  {
+   "id": "en_US_lessac_medium_16",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Next song.",
+   "expect": "next_song"
+  },
+  {
+   "id": "en_US_lessac_medium_17",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "What's the temperature?",
+   "expect": "status"
+  },
+  {
+   "id": "en_US_lessac_medium_18",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Turn off the kitchen lights and lock the front door.",
+   "expect": "lights_off:lights@kitchen; lock:door@front"
+  },
+  {
+   "id": "en_US_lessac_medium_19",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Unlock the back door but not the front.",
+   "expect": "unlock:door@back; -unlock:door@front"
+  },
+  {
+   "id": "en_US_lessac_medium_20",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Turn on the lights in the kitchen and the bedroom.",
+   "expect": "lights_on:lights@kitchen; lights_on:lights@bedroom"
+  },
+  {
+   "id": "en_US_lessac_medium_21",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Close the bedroom blinds and turn off the lights.",
+   "expect": "blinds_close:blinds@bedroom; lights_off:lights"
+  },
+  {
+   "id": "en_US_lessac_medium_22",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Set the bedroom lights to twenty percent and lock the front door.",
+   "expect": "set_lights:lights@bedroom=20; lock:door@front"
+  },
+  {
+   "id": "en_US_lessac_medium_23",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Is the front door locked?",
+   "expect": "status"
+  },
+  {
+   "id": "en_US_lessac_medium_24",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Turn on the bathroom lights.",
+   "expect": "lights_on:lights@bathroom"
+  },
+  {
+   "id": "en_US_lessac_medium_25",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The kitchen lights are beautiful.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_26",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "I turned off the lights before bed.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_27",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The music was too loud last night.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_28",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "We need new blinds for the bedroom.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_29",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Did you lock the door?",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_30",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "It's warmer today than yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_31",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "My neighbour plays the radio all day.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_32",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The heating bill was high this month.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_33",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "I love this song.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_34",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The front door is painted blue.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_35",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "She left the lights on again.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_36",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The temperature outside is lovely.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_37",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Our bathroom needs new tiles.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_38",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "He opened the window for some air.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_39",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Jazz is my favourite music.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_40",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The living room is very cosy.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_41",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The thermostat is in the hallway.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_42",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "I locked myself out yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_43",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "They play music at the cafe.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_44",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Turn left at the next corner.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_45",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The volume of the book is huge.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_46",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Who closed the curtains?",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_00",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Turn off the kitchen lights.",
+   "expect": "lights_off:lights@kitchen"
+  },
+  {
+   "id": "en_US_ryan_medium_01",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Turn the bedroom lights on.",
+   "expect": "lights_on:lights@bedroom"
+  },
+  {
+   "id": "en_US_ryan_medium_02",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Lights off everywhere.",
+   "expect": "lights_off:lights@everywhere"
+  },
+  {
+   "id": "en_US_ryan_medium_03",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Set the living room lights to forty percent.",
+   "expect": "set_lights:lights@living room=40"
+  },
+  {
+   "id": "en_US_ryan_medium_04",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Dim the bedroom lights.",
+   "expect": "dim_lights:lights@bedroom"
+  },
+  {
+   "id": "en_US_ryan_medium_05",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Set the thermostat to twenty two degrees.",
+   "expect": "set_temperature:thermostat=22"
+  },
+  {
+   "id": "en_US_ryan_medium_06",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Make it warmer.",
+   "expect": "warmer"
+  },
+  {
+   "id": "en_US_ryan_medium_07",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Turn the heating down.",
+   "expect": "cooler:heating"
+  },
+  {
+   "id": "en_US_ryan_medium_08",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Lock the front door.",
+   "expect": "lock:door@front"
+  },
+  {
+   "id": "en_US_ryan_medium_09",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Unlock the back door.",
+   "expect": "unlock:door@back"
+  },
+  {
+   "id": "en_US_ryan_medium_10",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Lock all the doors.",
+   "expect": "lock:doors@all"
+  },
+  {
+   "id": "en_US_ryan_medium_11",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Open the bedroom blinds.",
+   "expect": "blinds_open:blinds@bedroom"
+  },
+  {
+   "id": "en_US_ryan_medium_12",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Close the blinds in the living room.",
+   "expect": "blinds_close:blinds@living room"
+  },
+  {
+   "id": "en_US_ryan_medium_13",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Play some jazz in the kitchen.",
+   "expect": "play:some jazz@kitchen"
+  },
+  {
+   "id": "en_US_ryan_medium_14",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Stop the music.",
+   "expect": "stop_music:music"
+  },
+  {
+   "id": "en_US_ryan_medium_15",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Turn up the volume.",
+   "expect": "volume_up:volume"
+  },
+  {
+   "id": "en_US_ryan_medium_16",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Next song.",
+   "expect": "next_song"
+  },
+  {
+   "id": "en_US_ryan_medium_17",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "What's the temperature?",
+   "expect": "status"
+  },
+  {
+   "id": "en_US_ryan_medium_18",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Turn off the kitchen lights and lock the front door.",
+   "expect": "lights_off:lights@kitchen; lock:door@front"
+  },
+  {
+   "id": "en_US_ryan_medium_19",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Unlock the back door but not the front.",
+   "expect": "unlock:door@back; -unlock:door@front"
+  },
+  {
+   "id": "en_US_ryan_medium_20",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Turn on the lights in the kitchen and the bedroom.",
+   "expect": "lights_on:lights@kitchen; lights_on:lights@bedroom"
+  },
+  {
+   "id": "en_US_ryan_medium_21",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Close the bedroom blinds and turn off the lights.",
+   "expect": "blinds_close:blinds@bedroom; lights_off:lights"
+  },
+  {
+   "id": "en_US_ryan_medium_22",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Set the bedroom lights to twenty percent and lock the front door.",
+   "expect": "set_lights:lights@bedroom=20; lock:door@front"
+  },
+  {
+   "id": "en_US_ryan_medium_23",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Is the front door locked?",
+   "expect": "status"
+  },
+  {
+   "id": "en_US_ryan_medium_24",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Turn on the bathroom lights.",
+   "expect": "lights_on:lights@bathroom"
+  },
+  {
+   "id": "en_US_ryan_medium_25",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The kitchen lights are beautiful.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_26",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "I turned off the lights before bed.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_27",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The music was too loud last night.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_28",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "We need new blinds for the bedroom.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_29",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Did you lock the door?",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_30",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "It's warmer today than yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_31",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "My neighbour plays the radio all day.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_32",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The heating bill was high this month.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_33",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "I love this song.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_34",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The front door is painted blue.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_35",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "She left the lights on again.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_36",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The temperature outside is lovely.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_37",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Our bathroom needs new tiles.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_38",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "He opened the window for some air.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_39",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Jazz is my favourite music.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_40",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The living room is very cosy.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_41",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The thermostat is in the hallway.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_42",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "I locked myself out yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_43",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "They play music at the cafe.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_44",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Turn left at the next corner.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_45",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The volume of the book is huge.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_46",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Who closed the curtains?",
+   "expect": null
+  }
+ ]
+}

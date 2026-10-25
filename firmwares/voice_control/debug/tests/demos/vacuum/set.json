@@ -1,0 +1,1320 @@
+{
+ "clips": [
+  {
+   "id": "en_GB_alan_medium_00",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Clean the kitchen.",
+   "expect": "clean_room:kitchen"
+  },
+  {
+   "id": "en_GB_alan_medium_01",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Clean the bedroom.",
+   "expect": "clean_room:bedroom"
+  },
+  {
+   "id": "en_GB_alan_medium_02",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Vacuum the living room.",
+   "expect": "clean_room:living room"
+  },
+  {
+   "id": "en_GB_alan_medium_03",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Clean up the spill.",
+   "expect": "clean_spot:spill"
+  },
+  {
+   "id": "en_GB_alan_medium_04",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Clean up the crumbs.",
+   "expect": "clean_spot:crumbs"
+  },
+  {
+   "id": "en_GB_alan_medium_05",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Pick up the granola.",
+   "expect": "clean_spot:granola"
+  },
+  {
+   "id": "en_GB_alan_medium_06",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Vacuum the dust in the bedroom.",
+   "expect": "clean_spot:dust"
+  },
+  {
+   "id": "en_GB_alan_medium_07",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Clean everything.",
+   "expect": "clean_all:everything"
+  },
+  {
+   "id": "en_GB_alan_medium_08",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Go to the kitchen.",
+   "expect": "go_to_room:kitchen"
+  },
+  {
+   "id": "en_GB_alan_medium_09",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Go back to the dock.",
+   "expect": "return_to_dock:dock"
+  },
+  {
+   "id": "en_GB_alan_medium_10",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Go home.",
+   "expect": "return_to_dock"
+  },
+  {
+   "id": "en_GB_alan_medium_11",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Stop.",
+   "expect": "stop"
+  },
+  {
+   "id": "en_GB_alan_medium_12",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Continue.",
+   "expect": "resume"
+  },
+  {
+   "id": "en_GB_alan_medium_13",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Set the suction to high.",
+   "expect": "suction:high"
+  },
+  {
+   "id": "en_GB_alan_medium_14",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Where are you?",
+   "expect": "status"
+  },
+  {
+   "id": "en_GB_alan_medium_15",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Clean the kitchen, not the bedroom, then go back to the dock.",
+   "expect": "clean_room:kitchen; -clean_room:bedroom; return_to_dock:dock"
+  },
+  {
+   "id": "en_GB_alan_medium_16",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Clean the kitchen and the bedroom.",
+   "expect": "clean_room:kitchen; clean_room:bedroom"
+  },
+  {
+   "id": "en_GB_alan_medium_17",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Go to the kitchen and clean up the spill.",
+   "expect": "go_to_room:kitchen; clean_spot:spill"
+  },
+  {
+   "id": "en_GB_alan_medium_18",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Clean the whole flat except the bedroom.",
+   "expect": "clean_all:whole flat; -clean_room:bedroom"
+  },
+  {
+   "id": "en_GB_alan_medium_19",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Don't clean the living room.",
+   "expect": "-clean_room:living room (all_skipped)"
+  },
+  {
+   "id": "en_GB_alan_medium_20",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Clean the bedroom, then go home.",
+   "expect": "clean_room:bedroom; return_to_dock"
+  },
+  {
+   "id": "en_GB_alan_medium_21",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Please stop.",
+   "expect": "stop"
+  },
+  {
+   "id": "en_GB_alan_medium_22",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Hoover the living room.",
+   "expect": "clean_room:living room"
+  },
+  {
+   "id": "en_GB_alan_medium_23",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Drive to the bedroom.",
+   "expect": "go_to_room:bedroom"
+  },
+  {
+   "id": "en_GB_alan_medium_24",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Suction to max.",
+   "expect": "suction:max"
+  },
+  {
+   "id": "en_GB_alan_medium_25",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The dog is sleeping in the kitchen.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_26",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "We cooked dinner in the kitchen.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_27",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "My bedroom is upstairs.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_28",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "I want to go back to sleep.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_29",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "I will continue tomorrow.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_30",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The living room is very bright.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_31",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "She spilled the milk yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_32",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The boat is at the dock.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_33",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "He came home late.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_34",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The granola is in the cupboard.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_35",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Crumbs fell on the floor.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_36",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "What is the weather tomorrow?",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_37",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "I cleaned the kitchen yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_38",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Dust settles everywhere.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_39",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The power went out last night.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_40",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Let's go to the park.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_41",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The top shelf is full.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_42",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "I bought some stuff.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_43",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The shop is closed today.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_44",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "She went home early.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_45",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Turn on the lights.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_46",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Let's watch a movie in the living room.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_00",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Clean the kitchen.",
+   "expect": "clean_room:kitchen"
+  },
+  {
+   "id": "en_US_amy_medium_01",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Clean the bedroom.",
+   "expect": "clean_room:bedroom"
+  },
+  {
+   "id": "en_US_amy_medium_02",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Vacuum the living room.",
+   "expect": "clean_room:living room"
+  },
+  {
+   "id": "en_US_amy_medium_03",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Clean up the spill.",
+   "expect": "clean_spot:spill"
+  },
+  {
+   "id": "en_US_amy_medium_04",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Clean up the crumbs.",
+   "expect": "clean_spot:crumbs"
+  },
+  {
+   "id": "en_US_amy_medium_05",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Pick up the granola.",
+   "expect": "clean_spot:granola"
+  },
+  {
+   "id": "en_US_amy_medium_06",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Vacuum the dust in the bedroom.",
+   "expect": "clean_spot:dust"
+  },
+  {
+   "id": "en_US_amy_medium_07",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Clean everything.",
+   "expect": "clean_all:everything"
+  },
+  {
+   "id": "en_US_amy_medium_08",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Go to the kitchen.",
+   "expect": "go_to_room:kitchen"
+  },
+  {
+   "id": "en_US_amy_medium_09",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Go back to the dock.",
+   "expect": "return_to_dock:dock"
+  },
+  {
+   "id": "en_US_amy_medium_10",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Go home.",
+   "expect": "return_to_dock"
+  },
+  {
+   "id": "en_US_amy_medium_11",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Stop.",
+   "expect": "stop"
+  },
+  {
+   "id": "en_US_amy_medium_12",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Continue.",
+   "expect": "resume"
+  },
+  {
+   "id": "en_US_amy_medium_13",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Set the suction to high.",
+   "expect": "suction:high"
+  },
+  {
+   "id": "en_US_amy_medium_14",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Where are you?",
+   "expect": "status"
+  },
+  {
+   "id": "en_US_amy_medium_15",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Clean the kitchen, not the bedroom, then go back to the dock.",
+   "expect": "clean_room:kitchen; -clean_room:bedroom; return_to_dock:dock"
+  },
+  {
+   "id": "en_US_amy_medium_16",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Clean the kitchen and the bedroom.",
+   "expect": "clean_room:kitchen; clean_room:bedroom"
+  },
+  {
+   "id": "en_US_amy_medium_17",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Go to the kitchen and clean up the spill.",
+   "expect": "go_to_room:kitchen; clean_spot:spill"
+  },
+  {
+   "id": "en_US_amy_medium_18",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Clean the whole flat except the bedroom.",
+   "expect": "clean_all:whole flat; -clean_room:bedroom"
+  },
+  {
+   "id": "en_US_amy_medium_19",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Don't clean the living room.",
+   "expect": "-clean_room:living room (all_skipped)"
+  },
+  {
+   "id": "en_US_amy_medium_20",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Clean the bedroom, then go home.",
+   "expect": "clean_room:bedroom; return_to_dock"
+  },
+  {
+   "id": "en_US_amy_medium_21",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Please stop.",
+   "expect": "stop"
+  },
+  {
+   "id": "en_US_amy_medium_22",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Hoover the living room.",
+   "expect": "clean_room:living room"
+  },
+  {
+   "id": "en_US_amy_medium_23",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Drive to the bedroom.",
+   "expect": "go_to_room:bedroom"
+  },
+  {
+   "id": "en_US_amy_medium_24",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Suction to max.",
+   "expect": "suction:max"
+  },
+  {
+   "id": "en_US_amy_medium_25",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The dog is sleeping in the kitchen.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_26",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "We cooked dinner in the kitchen.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_27",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "My bedroom is upstairs.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_28",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "I want to go back to sleep.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_29",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "I will continue tomorrow.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_30",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The living room is very bright.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_31",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "She spilled the milk yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_32",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The boat is at the dock.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_33",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "He came home late.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_34",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The granola is in the cupboard.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_35",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Crumbs fell on the floor.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_36",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "What is the weather tomorrow?",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_37",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "I cleaned the kitchen yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_38",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Dust settles everywhere.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_39",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The power went out last night.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_40",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Let's go to the park.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_41",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The top shelf is full.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_42",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "I bought some stuff.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_43",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The shop is closed today.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_44",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "She went home early.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_45",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Turn on the lights.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_46",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Let's watch a movie in the living room.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_00",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Clean the kitchen.",
+   "expect": "clean_room:kitchen"
+  },
+  {
+   "id": "en_US_lessac_medium_01",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Clean the bedroom.",
+   "expect": "clean_room:bedroom"
+  },
+  {
+   "id": "en_US_lessac_medium_02",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Vacuum the living room.",
+   "expect": "clean_room:living room"
+  },
+  {
+   "id": "en_US_lessac_medium_03",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Clean up the spill.",
+   "expect": "clean_spot:spill"
+  },
+  {
+   "id": "en_US_lessac_medium_04",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Clean up the crumbs.",
+   "expect": "clean_spot:crumbs"
+  },
+  {
+   "id": "en_US_lessac_medium_05",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Pick up the granola.",
+   "expect": "clean_spot:granola"
+  },
+  {
+   "id": "en_US_lessac_medium_06",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Vacuum the dust in the bedroom.",
+   "expect": "clean_spot:dust"
+  },
+  {
+   "id": "en_US_lessac_medium_07",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Clean everything.",
+   "expect": "clean_all:everything"
+  },
+  {
+   "id": "en_US_lessac_medium_08",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Go to the kitchen.",
+   "expect": "go_to_room:kitchen"
+  },
+  {
+   "id": "en_US_lessac_medium_09",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Go back to the dock.",
+   "expect": "return_to_dock:dock"
+  },
+  {
+   "id": "en_US_lessac_medium_10",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Go home.",
+   "expect": "return_to_dock"
+  },
+  {
+   "id": "en_US_lessac_medium_11",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Stop.",
+   "expect": "stop"
+  },
+  {
+   "id": "en_US_lessac_medium_12",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Continue.",
+   "expect": "resume"
+  },
+  {
+   "id": "en_US_lessac_medium_13",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Set the suction to high.",
+   "expect": "suction:high"
+  },
+  {
+   "id": "en_US_lessac_medium_14",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Where are you?",
+   "expect": "status"
+  },
+  {
+   "id": "en_US_lessac_medium_15",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Clean the kitchen, not the bedroom, then go back to the dock.",
+   "expect": "clean_room:kitchen; -clean_room:bedroom; return_to_dock:dock"
+  },
+  {
+   "id": "en_US_lessac_medium_16",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Clean the kitchen and the bedroom.",
+   "expect": "clean_room:kitchen; clean_room:bedroom"
+  },
+  {
+   "id": "en_US_lessac_medium_17",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Go to the kitchen and clean up the spill.",
+   "expect": "go_to_room:kitchen; clean_spot:spill"
+  },
+  {
+   "id": "en_US_lessac_medium_18",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Clean the whole flat except the bedroom.",
+   "expect": "clean_all:whole flat; -clean_room:bedroom"
+  },
+  {
+   "id": "en_US_lessac_medium_19",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Don't clean the living room.",
+   "expect": "-clean_room:living room (all_skipped)"
+  },
+  {
+   "id": "en_US_lessac_medium_20",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Clean the bedroom, then go home.",
+   "expect": "clean_room:bedroom; return_to_dock"
+  },
+  {
+   "id": "en_US_lessac_medium_21",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Please stop.",
+   "expect": "stop"
+  },
+  {
+   "id": "en_US_lessac_medium_22",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Hoover the living room.",
+   "expect": "clean_room:living room"
+  },
+  {
+   "id": "en_US_lessac_medium_23",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Drive to the bedroom.",
+   "expect": "go_to_room:bedroom"
+  },
+  {
+   "id": "en_US_lessac_medium_24",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Suction to max.",
+   "expect": "suction:max"
+  },
+  {
+   "id": "en_US_lessac_medium_25",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The dog is sleeping in the kitchen.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_26",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "We cooked dinner in the kitchen.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_27",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "My bedroom is upstairs.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_28",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "I want to go back to sleep.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_29",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "I will continue tomorrow.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_30",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The living room is very bright.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_31",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "She spilled the milk yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_32",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The boat is at the dock.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_33",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "He came home late.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_34",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The granola is in the cupboard.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_35",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Crumbs fell on the floor.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_36",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "What is the weather tomorrow?",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_37",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "I cleaned the kitchen yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_38",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Dust settles everywhere.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_39",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The power went out last night.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_40",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Let's go to the park.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_41",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The top shelf is full.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_42",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "I bought some stuff.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_43",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The shop is closed today.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_44",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "She went home early.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_45",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Turn on the lights.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_46",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Let's watch a movie in the living room.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_00",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Clean the kitchen.",
+   "expect": "clean_room:kitchen"
+  },
+  {
+   "id": "en_US_ryan_medium_01",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Clean the bedroom.",
+   "expect": "clean_room:bedroom"
+  },
+  {
+   "id": "en_US_ryan_medium_02",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Vacuum the living room.",
+   "expect": "clean_room:living room"
+  },
+  {
+   "id": "en_US_ryan_medium_03",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Clean up the spill.",
+   "expect": "clean_spot:spill"
+  },
+  {
+   "id": "en_US_ryan_medium_04",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Clean up the crumbs.",
+   "expect": "clean_spot:crumbs"
+  },
+  {
+   "id": "en_US_ryan_medium_05",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Pick up the granola.",
+   "expect": "clean_spot:granola"
+  },
+  {
+   "id": "en_US_ryan_medium_06",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Vacuum the dust in the bedroom.",
+   "expect": "clean_spot:dust"
+  },
+  {
+   "id": "en_US_ryan_medium_07",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Clean everything.",
+   "expect": "clean_all:everything"
+  },
+  {
+   "id": "en_US_ryan_medium_08",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Go to the kitchen.",
+   "expect": "go_to_room:kitchen"
+  },
+  {
+   "id": "en_US_ryan_medium_09",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Go back to the dock.",
+   "expect": "return_to_dock:dock"
+  },
+  {
+   "id": "en_US_ryan_medium_10",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Go home.",
+   "expect": "return_to_dock"
+  },
+  {
+   "id": "en_US_ryan_medium_11",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Stop.",
+   "expect": "stop"
+  },
+  {
+   "id": "en_US_ryan_medium_12",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Continue.",
+   "expect": "resume"
+  },
+  {
+   "id": "en_US_ryan_medium_13",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Set the suction to high.",
+   "expect": "suction:high"
+  },
+  {
+   "id": "en_US_ryan_medium_14",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Where are you?",
+   "expect": "status"
+  },
+  {
+   "id": "en_US_ryan_medium_15",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Clean the kitchen, not the bedroom, then go back to the dock.",
+   "expect": "clean_room:kitchen; -clean_room:bedroom; return_to_dock:dock"
+  },
+  {
+   "id": "en_US_ryan_medium_16",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Clean the kitchen and the bedroom.",
+   "expect": "clean_room:kitchen; clean_room:bedroom"
+  },
+  {
+   "id": "en_US_ryan_medium_17",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Go to the kitchen and clean up the spill.",
+   "expect": "go_to_room:kitchen; clean_spot:spill"
+  },
+  {
+   "id": "en_US_ryan_medium_18",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Clean the whole flat except the bedroom.",
+   "expect": "clean_all:whole flat; -clean_room:bedroom"
+  },
+  {
+   "id": "en_US_ryan_medium_19",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Don't clean the living room.",
+   "expect": "-clean_room:living room (all_skipped)"
+  },
+  {
+   "id": "en_US_ryan_medium_20",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Clean the bedroom, then go home.",
+   "expect": "clean_room:bedroom; return_to_dock"
+  },
+  {
+   "id": "en_US_ryan_medium_21",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Please stop.",
+   "expect": "stop"
+  },
+  {
+   "id": "en_US_ryan_medium_22",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Hoover the living room.",
+   "expect": "clean_room:living room"
+  },
+  {
+   "id": "en_US_ryan_medium_23",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Drive to the bedroom.",
+   "expect": "go_to_room:bedroom"
+  },
+  {
+   "id": "en_US_ryan_medium_24",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Suction to max.",
+   "expect": "suction:max"
+  },
+  {
+   "id": "en_US_ryan_medium_25",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The dog is sleeping in the kitchen.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_26",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "We cooked dinner in the kitchen.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_27",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "My bedroom is upstairs.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_28",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "I want to go back to sleep.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_29",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "I will continue tomorrow.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_30",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The living room is very bright.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_31",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "She spilled the milk yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_32",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The boat is at the dock.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_33",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "He came home late.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_34",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The granola is in the cupboard.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_35",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Crumbs fell on the floor.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_36",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "What is the weather tomorrow?",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_37",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "I cleaned the kitchen yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_38",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Dust settles everywhere.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_39",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The power went out last night.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_40",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Let's go to the park.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_41",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The top shelf is full.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_42",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "I bought some stuff.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_43",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The shop is closed today.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_44",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "She went home early.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_45",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Turn on the lights.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_46",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Let's watch a movie in the living room.",
+   "expect": null
+  }
+ ]
+}

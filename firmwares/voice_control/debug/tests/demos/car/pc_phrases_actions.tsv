@@ -1,0 +1,188 @@
+en_GB_alan_medium_00.f32	set_temperature:temperature=21
+en_GB_alan_medium_01.f32	warmer
+en_GB_alan_medium_02.f32	fan_up:fan
+en_GB_alan_medium_03.f32	set_fan:fan=3
+en_GB_alan_medium_04.f32	windows_open:windows
+en_GB_alan_medium_05.f32	windows_open:window@driver
+en_GB_alan_medium_06.f32	windows_close:windows@rear
+en_GB_alan_medium_07.f32	windows_close:windows
+en_GB_alan_medium_08.f32	seat_heat_on:seat
+en_GB_alan_medium_09.f32	seat_heat_on:seat heater@passenger
+en_GB_alan_medium_10.f32	defrost:windscreen
+en_GB_alan_medium_11.f32	navigate:home
+en_GB_alan_medium_12.f32	navigate:the airport
+en_GB_alan_medium_13.f32	navigate:nearest charger
+en_GB_alan_medium_14.f32	stop_navigation
+en_GB_alan_medium_15.f32	play:the radio
+en_GB_alan_medium_16.f32	pause:music
+en_GB_alan_medium_17.f32	next_track
+en_GB_alan_medium_18.f32	volume_up:volume
+en_GB_alan_medium_19.f32	lights_on:headlights
+en_GB_alan_medium_20.f32	range
+en_GB_alan_medium_21.f32	set_temperature:temperature=21; windows_open:windows
+en_GB_alan_medium_22.f32	windows_open:windows@front; -windows_open:windows@rear
+en_GB_alan_medium_23.f32	navigate:work; play:the news
+en_GB_alan_medium_24.f32	seat_heat_off:seat heating
+en_GB_alan_medium_25.f32	(no_verb)
+en_GB_alan_medium_26.f32	(no_verb)
+en_GB_alan_medium_27.f32	(no_verb)
+en_GB_alan_medium_28.f32	(no_verb)
+en_GB_alan_medium_29.f32	(no_verb)
+en_GB_alan_medium_30.f32	(no_verb)
+en_GB_alan_medium_31.f32	(no_words)
+en_GB_alan_medium_32.f32	(no_verb)
+en_GB_alan_medium_33.f32	(no_verb)
+en_GB_alan_medium_34.f32	(no_verb)
+en_GB_alan_medium_35.f32	(no_verb)
+en_GB_alan_medium_36.f32	(no_verb)
+en_GB_alan_medium_37.f32	(no_verb)
+en_GB_alan_medium_38.f32	(no_words)
+en_GB_alan_medium_39.f32	(no_verb)
+en_GB_alan_medium_40.f32	(no_words)
+en_GB_alan_medium_41.f32	(no_verb)
+en_GB_alan_medium_42.f32	(no_words)
+en_GB_alan_medium_43.f32	(no_verb)
+en_GB_alan_medium_44.f32	(no_words)
+en_GB_alan_medium_45.f32	(no_verb)
+en_GB_alan_medium_46.f32	(no_verb)
+en_US_amy_medium_00.f32	set_temperature:temperature=21
+en_US_amy_medium_01.f32	warmer
+en_US_amy_medium_02.f32	fan_up:fan
+en_US_amy_medium_03.f32	set_fan:fan=3
+en_US_amy_medium_04.f32	windows_open:windows
+en_US_amy_medium_05.f32	windows_open:window@driver
+en_US_amy_medium_06.f32	windows_close:windows@rear
+en_US_amy_medium_07.f32	windows_close:windows
+en_US_amy_medium_08.f32	seat_heat_on:seat
+en_US_amy_medium_09.f32	seat_heat_on:seat heater@passenger
+en_US_amy_medium_10.f32	defrost:windscreen
+en_US_amy_medium_11.f32	navigate:home
+en_US_amy_medium_12.f32	navigate:the airport
+en_US_amy_medium_13.f32	navigate:nearest charger
+en_US_amy_medium_14.f32	stop_navigation
+en_US_amy_medium_15.f32	play:the radio
+en_US_amy_medium_16.f32	pause:music
+en_US_amy_medium_17.f32	next_track
+en_US_amy_medium_18.f32	volume_up:volume
+en_US_amy_medium_19.f32	lights_on:headlights
+en_US_amy_medium_20.f32	range
+en_US_amy_medium_21.f32	set_temperature:temperature=21; windows_open:windows
+en_US_amy_medium_22.f32	windows_open:windows@front; -windows_open:windows@rear
+en_US_amy_medium_23.f32	navigate:work; play:the news
+en_US_amy_medium_24.f32	seat_heat_off:seat heating
+en_US_amy_medium_25.f32	(no_verb)
+en_US_amy_medium_26.f32	(no_verb)
+en_US_amy_medium_27.f32	(no_verb)
+en_US_amy_medium_28.f32	(no_verb)
+en_US_amy_medium_29.f32	(no_verb)
+en_US_amy_medium_30.f32	(no_verb)
+en_US_amy_medium_31.f32	(no_words)
+en_US_amy_medium_32.f32	(no_verb)
+en_US_amy_medium_33.f32	(no_verb)
+en_US_amy_medium_34.f32	(no_verb)
+en_US_amy_medium_35.f32	(no_verb)
+en_US_amy_medium_36.f32	(no_verb)
+en_US_amy_medium_37.f32	(no_verb)
+en_US_amy_medium_38.f32	(no_words)
+en_US_amy_medium_39.f32	(no_verb)
+en_US_amy_medium_40.f32	(no_words)
+en_US_amy_medium_41.f32	(no_verb)
+en_US_amy_medium_42.f32	(no_words)
+en_US_amy_medium_43.f32	(no_verb)
+en_US_amy_medium_44.f32	(no_words)
+en_US_amy_medium_45.f32	(no_verb)
+en_US_amy_medium_46.f32	(no_verb)
+en_US_lessac_medium_00.f32	set_temperature:temperature=21
+en_US_lessac_medium_01.f32	warmer
+en_US_lessac_medium_02.f32	fan_up:fan
+en_US_lessac_medium_03.f32	set_fan:fan=3
+en_US_lessac_medium_04.f32	windows_open:windows
+en_US_lessac_medium_05.f32	windows_open:windows@driver
+en_US_lessac_medium_06.f32	(no_verb)
+en_US_lessac_medium_07.f32	windows_close:windows
+en_US_lessac_medium_08.f32	seat_heat_on:seat
+en_US_lessac_medium_09.f32	seat_heat_on:seat heater@passenger
+en_US_lessac_medium_10.f32	(no_verb)
+en_US_lessac_medium_11.f32	navigate:home
+en_US_lessac_medium_12.f32	navigate:the airport
+en_US_lessac_medium_13.f32	navigate:nearest charger
+en_US_lessac_medium_14.f32	stop_navigation
+en_US_lessac_medium_15.f32	play:the radio
+en_US_lessac_medium_16.f32	pause:music
+en_US_lessac_medium_17.f32	next_track
+en_US_lessac_medium_18.f32	volume_up:volume
+en_US_lessac_medium_19.f32	lights_on:headlights
+en_US_lessac_medium_20.f32	range
+en_US_lessac_medium_21.f32	set_temperature:temperature=21; windows_open:windows
+en_US_lessac_medium_22.f32	windows_open:windows@front; -windows_open:windows@rear
+en_US_lessac_medium_23.f32	navigate:work; play:the news
+en_US_lessac_medium_24.f32	seat_heat_off:seat heating
+en_US_lessac_medium_25.f32	(no_verb)
+en_US_lessac_medium_26.f32	(no_verb)
+en_US_lessac_medium_27.f32	(no_verb)
+en_US_lessac_medium_28.f32	(no_verb)
+en_US_lessac_medium_29.f32	(no_verb)
+en_US_lessac_medium_30.f32	(no_verb)
+en_US_lessac_medium_31.f32	(no_words)
+en_US_lessac_medium_32.f32	(no_verb)
+en_US_lessac_medium_33.f32	(no_verb)
+en_US_lessac_medium_34.f32	(no_verb)
+en_US_lessac_medium_35.f32	(no_verb)
+en_US_lessac_medium_36.f32	(no_verb)
+en_US_lessac_medium_37.f32	(no_verb)
+en_US_lessac_medium_38.f32	(no_words)
+en_US_lessac_medium_39.f32	(no_verb)
+en_US_lessac_medium_40.f32	(no_words)
+en_US_lessac_medium_41.f32	(no_verb)
+en_US_lessac_medium_42.f32	(no_words)
+en_US_lessac_medium_43.f32	(no_verb)
+en_US_lessac_medium_44.f32	(no_words)
+en_US_lessac_medium_45.f32	(no_verb)
+en_US_lessac_medium_46.f32	(no_verb)
+en_US_ryan_medium_00.f32	set_temperature:temperature=21
+en_US_ryan_medium_01.f32	warmer
+en_US_ryan_medium_02.f32	fan_up:fan
+en_US_ryan_medium_03.f32	set_fan:fan=3
+en_US_ryan_medium_04.f32	windows_open:windows
+en_US_ryan_medium_05.f32	windows_open:window@driver
+en_US_ryan_medium_06.f32	windows_close:windows@rear
+en_US_ryan_medium_07.f32	windows_close:windows
+en_US_ryan_medium_08.f32	seat_heat_on:seat
+en_US_ryan_medium_09.f32	seat_heat_on:seat heater@passenger
+en_US_ryan_medium_10.f32	defrost:windscreen
+en_US_ryan_medium_11.f32	navigate:home
+en_US_ryan_medium_12.f32	navigate:the airport
+en_US_ryan_medium_13.f32	navigate:nearest charger
+en_US_ryan_medium_14.f32	stop_navigation
+en_US_ryan_medium_15.f32	play:the radio
+en_US_ryan_medium_16.f32	pause:music
+en_US_ryan_medium_17.f32	next_track
+en_US_ryan_medium_18.f32	volume_up:volume
+en_US_ryan_medium_19.f32	lights_on:headlights
+en_US_ryan_medium_20.f32	range
+en_US_ryan_medium_21.f32	set_temperature:temperature=21; windows_open:windows
+en_US_ryan_medium_22.f32	windows_open:windows@front; -windows_open:windows@rear
+en_US_ryan_medium_23.f32	navigate:work; play:the news
+en_US_ryan_medium_24.f32	seat_heat_off:seat heating
+en_US_ryan_medium_25.f32	(no_verb)
+en_US_ryan_medium_26.f32	(no_verb)
+en_US_ryan_medium_27.f32	(no_verb)
+en_US_ryan_medium_28.f32	(no_verb)
+en_US_ryan_medium_29.f32	(no_verb)
+en_US_ryan_medium_30.f32	(no_verb)
+en_US_ryan_medium_31.f32	(no_words)
+en_US_ryan_medium_32.f32	(no_verb)
+en_US_ryan_medium_33.f32	(no_verb)
+en_US_ryan_medium_34.f32	(no_verb)
+en_US_ryan_medium_35.f32	(no_verb)
+en_US_ryan_medium_36.f32	(no_verb)
+en_US_ryan_medium_37.f32	(no_verb)
+en_US_ryan_medium_38.f32	(no_words)
+en_US_ryan_medium_39.f32	(no_verb)
+en_US_ryan_medium_40.f32	(no_words)
+en_US_ryan_medium_41.f32	(no_verb)
+en_US_ryan_medium_42.f32	(no_words)
+en_US_ryan_medium_43.f32	(no_verb)
+en_US_ryan_medium_44.f32	(no_words)
+en_US_ryan_medium_45.f32	(no_verb)
+en_US_ryan_medium_46.f32	(no_verb)

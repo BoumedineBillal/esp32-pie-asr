@@ -1,0 +1,24 @@
+# The robot vacuum demo's phrases: while the demo is open, the recogniser listens harder for these words and
+# sentences. One word or sentence per line; a line starting with # is a note. At most 10 words and 10 sentences.
+# Chosen with debug/tests/vacuum (188 text-to-speech clips): 96 of 100 commands exact, 0 actions from 88 near misses
+# ("the top shelf", "I bought some stuff", "I cleaned the kitchen yesterday"...).
+kitchen
+bedroom
+dock
+spill
+crumbs
+granola
+dust
+suction
+hoover
+stop
+living room
+clean the kitchen
+clean the bedroom
+clean the living room
+clean up the spill
+go back to the dock
+clean everything
+set the suction to high
+go home
+clean the whole flat

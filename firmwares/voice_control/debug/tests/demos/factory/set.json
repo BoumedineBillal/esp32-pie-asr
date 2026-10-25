@@ -1,0 +1,1320 @@
+{
+ "clips": [
+  {
+   "id": "en_GB_alan_medium_00",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Start the line.",
+   "expect": "start:the line"
+  },
+  {
+   "id": "en_GB_alan_medium_01",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Stop the conveyor.",
+   "expect": "stop:conveyor"
+  },
+  {
+   "id": "en_GB_alan_medium_02",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Emergency stop!",
+   "expect": "emergency_stop"
+  },
+  {
+   "id": "en_GB_alan_medium_03",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Reset the alarm.",
+   "expect": "reset:the alarm"
+  },
+  {
+   "id": "en_GB_alan_medium_04",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Reset the emergency stop.",
+   "expect": "reset:emergency stop"
+  },
+  {
+   "id": "en_GB_alan_medium_05",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Set the speed to fifty percent.",
+   "expect": "set_speed:speed=50"
+  },
+  {
+   "id": "en_GB_alan_medium_06",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Set the conveyor speed to seventy.",
+   "expect": "set_speed:conveyor speed=70"
+  },
+  {
+   "id": "en_GB_alan_medium_07",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Speed up the line.",
+   "expect": "faster:the line"
+  },
+  {
+   "id": "en_GB_alan_medium_08",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Slow down.",
+   "expect": "slower"
+  },
+  {
+   "id": "en_GB_alan_medium_09",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Start station two.",
+   "expect": "start:station=2"
+  },
+  {
+   "id": "en_GB_alan_medium_10",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Stop the press.",
+   "expect": "stop:the press"
+  },
+  {
+   "id": "en_GB_alan_medium_11",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Start the robot arm.",
+   "expect": "start:robot arm"
+  },
+  {
+   "id": "en_GB_alan_medium_12",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Switch to blue boxes.",
+   "expect": "product:blue boxes"
+  },
+  {
+   "id": "en_GB_alan_medium_13",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "How many boxes?",
+   "expect": "status"
+  },
+  {
+   "id": "en_GB_alan_medium_14",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Stop the line and reset the alarm.",
+   "expect": "stop:the line; reset:the alarm"
+  },
+  {
+   "id": "en_GB_alan_medium_15",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Shut down the press.",
+   "expect": "stop:the press"
+  },
+  {
+   "id": "en_GB_alan_medium_16",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Stop everything!",
+   "expect": "emergency_stop"
+  },
+  {
+   "id": "en_GB_alan_medium_17",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Start the packer.",
+   "expect": "start:packer"
+  },
+  {
+   "id": "en_GB_alan_medium_18",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Stop station three.",
+   "expect": "stop:station=3"
+  },
+  {
+   "id": "en_GB_alan_medium_19",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Switch to red boxes and start the line.",
+   "expect": "product:red boxes; start:the line"
+  },
+  {
+   "id": "en_GB_alan_medium_20",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Set the speed to eighty percent.",
+   "expect": "set_speed:speed=80"
+  },
+  {
+   "id": "en_GB_alan_medium_21",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Restart the conveyor.",
+   "expect": "start:conveyor"
+  },
+  {
+   "id": "en_GB_alan_medium_22",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Go faster.",
+   "expect": "faster"
+  },
+  {
+   "id": "en_GB_alan_medium_23",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Line status.",
+   "expect": "status"
+  },
+  {
+   "id": "en_GB_alan_medium_24",
+   "voice": "en_GB-alan-medium",
+   "group": "command",
+   "text": "Clear the fault.",
+   "expect": "reset:fault"
+  },
+  {
+   "id": "en_GB_alan_medium_25",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The line was stopped yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_26",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "We need to stop by the store.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_27",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The press conference starts at noon.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_28",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "This is an emergency exit.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_29",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The robot arm is broken.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_30",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Stop everything you are doing and listen.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_31",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "I like the red boxes.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_32",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The conveyor belt is long.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_33",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Our speed of delivery is great.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_34",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "She started a new job on Monday.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_35",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The alarm clock woke me up.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_36",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The station is closed for repairs.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_37",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Blue is my favourite colour.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_38",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "He runs every morning.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_39",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The production of films is costly.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_40",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Faster cars are expensive.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_41",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "They reset their passwords often.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_42",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The packer arrived late today.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_43",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "How many people came to the party?",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_44",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "Let's start the meeting.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_45",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "We switched to a new supplier.",
+   "expect": null
+  },
+  {
+   "id": "en_GB_alan_medium_46",
+   "voice": "en_GB-alan-medium",
+   "group": "near_miss",
+   "text": "The press is printing the newspaper.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_00",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Start the line.",
+   "expect": "start:the line"
+  },
+  {
+   "id": "en_US_amy_medium_01",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Stop the conveyor.",
+   "expect": "stop:conveyor"
+  },
+  {
+   "id": "en_US_amy_medium_02",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Emergency stop!",
+   "expect": "emergency_stop"
+  },
+  {
+   "id": "en_US_amy_medium_03",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Reset the alarm.",
+   "expect": "reset:the alarm"
+  },
+  {
+   "id": "en_US_amy_medium_04",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Reset the emergency stop.",
+   "expect": "reset:emergency stop"
+  },
+  {
+   "id": "en_US_amy_medium_05",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Set the speed to fifty percent.",
+   "expect": "set_speed:speed=50"
+  },
+  {
+   "id": "en_US_amy_medium_06",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Set the conveyor speed to seventy.",
+   "expect": "set_speed:conveyor speed=70"
+  },
+  {
+   "id": "en_US_amy_medium_07",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Speed up the line.",
+   "expect": "faster:the line"
+  },
+  {
+   "id": "en_US_amy_medium_08",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Slow down.",
+   "expect": "slower"
+  },
+  {
+   "id": "en_US_amy_medium_09",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Start station two.",
+   "expect": "start:station=2"
+  },
+  {
+   "id": "en_US_amy_medium_10",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Stop the press.",
+   "expect": "stop:the press"
+  },
+  {
+   "id": "en_US_amy_medium_11",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Start the robot arm.",
+   "expect": "start:robot arm"
+  },
+  {
+   "id": "en_US_amy_medium_12",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Switch to blue boxes.",
+   "expect": "product:blue boxes"
+  },
+  {
+   "id": "en_US_amy_medium_13",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "How many boxes?",
+   "expect": "status"
+  },
+  {
+   "id": "en_US_amy_medium_14",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Stop the line and reset the alarm.",
+   "expect": "stop:the line; reset:the alarm"
+  },
+  {
+   "id": "en_US_amy_medium_15",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Shut down the press.",
+   "expect": "stop:the press"
+  },
+  {
+   "id": "en_US_amy_medium_16",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Stop everything!",
+   "expect": "emergency_stop"
+  },
+  {
+   "id": "en_US_amy_medium_17",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Start the packer.",
+   "expect": "start:packer"
+  },
+  {
+   "id": "en_US_amy_medium_18",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Stop station three.",
+   "expect": "stop:station=3"
+  },
+  {
+   "id": "en_US_amy_medium_19",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Switch to red boxes and start the line.",
+   "expect": "product:red boxes; start:the line"
+  },
+  {
+   "id": "en_US_amy_medium_20",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Set the speed to eighty percent.",
+   "expect": "set_speed:speed=80"
+  },
+  {
+   "id": "en_US_amy_medium_21",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Restart the conveyor.",
+   "expect": "start:conveyor"
+  },
+  {
+   "id": "en_US_amy_medium_22",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Go faster.",
+   "expect": "faster"
+  },
+  {
+   "id": "en_US_amy_medium_23",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Line status.",
+   "expect": "status"
+  },
+  {
+   "id": "en_US_amy_medium_24",
+   "voice": "en_US-amy-medium",
+   "group": "command",
+   "text": "Clear the fault.",
+   "expect": "reset:fault"
+  },
+  {
+   "id": "en_US_amy_medium_25",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The line was stopped yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_26",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "We need to stop by the store.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_27",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The press conference starts at noon.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_28",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "This is an emergency exit.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_29",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The robot arm is broken.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_30",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Stop everything you are doing and listen.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_31",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "I like the red boxes.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_32",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The conveyor belt is long.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_33",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Our speed of delivery is great.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_34",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "She started a new job on Monday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_35",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The alarm clock woke me up.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_36",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The station is closed for repairs.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_37",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Blue is my favourite colour.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_38",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "He runs every morning.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_39",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The production of films is costly.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_40",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Faster cars are expensive.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_41",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "They reset their passwords often.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_42",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The packer arrived late today.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_43",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "How many people came to the party?",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_44",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "Let's start the meeting.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_45",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "We switched to a new supplier.",
+   "expect": null
+  },
+  {
+   "id": "en_US_amy_medium_46",
+   "voice": "en_US-amy-medium",
+   "group": "near_miss",
+   "text": "The press is printing the newspaper.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_00",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Start the line.",
+   "expect": "start:the line"
+  },
+  {
+   "id": "en_US_lessac_medium_01",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Stop the conveyor.",
+   "expect": "stop:conveyor"
+  },
+  {
+   "id": "en_US_lessac_medium_02",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Emergency stop!",
+   "expect": "emergency_stop"
+  },
+  {
+   "id": "en_US_lessac_medium_03",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Reset the alarm.",
+   "expect": "reset:the alarm"
+  },
+  {
+   "id": "en_US_lessac_medium_04",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Reset the emergency stop.",
+   "expect": "reset:emergency stop"
+  },
+  {
+   "id": "en_US_lessac_medium_05",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Set the speed to fifty percent.",
+   "expect": "set_speed:speed=50"
+  },
+  {
+   "id": "en_US_lessac_medium_06",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Set the conveyor speed to seventy.",
+   "expect": "set_speed:conveyor speed=70"
+  },
+  {
+   "id": "en_US_lessac_medium_07",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Speed up the line.",
+   "expect": "faster:the line"
+  },
+  {
+   "id": "en_US_lessac_medium_08",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Slow down.",
+   "expect": "slower"
+  },
+  {
+   "id": "en_US_lessac_medium_09",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Start station two.",
+   "expect": "start:station=2"
+  },
+  {
+   "id": "en_US_lessac_medium_10",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Stop the press.",
+   "expect": "stop:the press"
+  },
+  {
+   "id": "en_US_lessac_medium_11",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Start the robot arm.",
+   "expect": "start:robot arm"
+  },
+  {
+   "id": "en_US_lessac_medium_12",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Switch to blue boxes.",
+   "expect": "product:blue boxes"
+  },
+  {
+   "id": "en_US_lessac_medium_13",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "How many boxes?",
+   "expect": "status"
+  },
+  {
+   "id": "en_US_lessac_medium_14",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Stop the line and reset the alarm.",
+   "expect": "stop:the line; reset:the alarm"
+  },
+  {
+   "id": "en_US_lessac_medium_15",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Shut down the press.",
+   "expect": "stop:the press"
+  },
+  {
+   "id": "en_US_lessac_medium_16",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Stop everything!",
+   "expect": "emergency_stop"
+  },
+  {
+   "id": "en_US_lessac_medium_17",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Start the packer.",
+   "expect": "start:packer"
+  },
+  {
+   "id": "en_US_lessac_medium_18",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Stop station three.",
+   "expect": "stop:station=3"
+  },
+  {
+   "id": "en_US_lessac_medium_19",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Switch to red boxes and start the line.",
+   "expect": "product:red boxes; start:the line"
+  },
+  {
+   "id": "en_US_lessac_medium_20",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Set the speed to eighty percent.",
+   "expect": "set_speed:speed=80"
+  },
+  {
+   "id": "en_US_lessac_medium_21",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Restart the conveyor.",
+   "expect": "start:conveyor"
+  },
+  {
+   "id": "en_US_lessac_medium_22",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Go faster.",
+   "expect": "faster"
+  },
+  {
+   "id": "en_US_lessac_medium_23",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Line status.",
+   "expect": "status"
+  },
+  {
+   "id": "en_US_lessac_medium_24",
+   "voice": "en_US-lessac-medium",
+   "group": "command",
+   "text": "Clear the fault.",
+   "expect": "reset:fault"
+  },
+  {
+   "id": "en_US_lessac_medium_25",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The line was stopped yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_26",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "We need to stop by the store.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_27",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The press conference starts at noon.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_28",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "This is an emergency exit.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_29",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The robot arm is broken.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_30",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Stop everything you are doing and listen.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_31",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "I like the red boxes.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_32",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The conveyor belt is long.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_33",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Our speed of delivery is great.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_34",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "She started a new job on Monday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_35",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The alarm clock woke me up.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_36",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The station is closed for repairs.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_37",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Blue is my favourite colour.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_38",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "He runs every morning.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_39",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The production of films is costly.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_40",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Faster cars are expensive.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_41",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "They reset their passwords often.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_42",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The packer arrived late today.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_43",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "How many people came to the party?",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_44",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "Let's start the meeting.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_45",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "We switched to a new supplier.",
+   "expect": null
+  },
+  {
+   "id": "en_US_lessac_medium_46",
+   "voice": "en_US-lessac-medium",
+   "group": "near_miss",
+   "text": "The press is printing the newspaper.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_00",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Start the line.",
+   "expect": "start:the line"
+  },
+  {
+   "id": "en_US_ryan_medium_01",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Stop the conveyor.",
+   "expect": "stop:conveyor"
+  },
+  {
+   "id": "en_US_ryan_medium_02",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Emergency stop!",
+   "expect": "emergency_stop"
+  },
+  {
+   "id": "en_US_ryan_medium_03",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Reset the alarm.",
+   "expect": "reset:the alarm"
+  },
+  {
+   "id": "en_US_ryan_medium_04",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Reset the emergency stop.",
+   "expect": "reset:emergency stop"
+  },
+  {
+   "id": "en_US_ryan_medium_05",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Set the speed to fifty percent.",
+   "expect": "set_speed:speed=50"
+  },
+  {
+   "id": "en_US_ryan_medium_06",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Set the conveyor speed to seventy.",
+   "expect": "set_speed:conveyor speed=70"
+  },
+  {
+   "id": "en_US_ryan_medium_07",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Speed up the line.",
+   "expect": "faster:the line"
+  },
+  {
+   "id": "en_US_ryan_medium_08",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Slow down.",
+   "expect": "slower"
+  },
+  {
+   "id": "en_US_ryan_medium_09",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Start station two.",
+   "expect": "start:station=2"
+  },
+  {
+   "id": "en_US_ryan_medium_10",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Stop the press.",
+   "expect": "stop:the press"
+  },
+  {
+   "id": "en_US_ryan_medium_11",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Start the robot arm.",
+   "expect": "start:robot arm"
+  },
+  {
+   "id": "en_US_ryan_medium_12",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Switch to blue boxes.",
+   "expect": "product:blue boxes"
+  },
+  {
+   "id": "en_US_ryan_medium_13",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "How many boxes?",
+   "expect": "status"
+  },
+  {
+   "id": "en_US_ryan_medium_14",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Stop the line and reset the alarm.",
+   "expect": "stop:the line; reset:the alarm"
+  },
+  {
+   "id": "en_US_ryan_medium_15",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Shut down the press.",
+   "expect": "stop:the press"
+  },
+  {
+   "id": "en_US_ryan_medium_16",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Stop everything!",
+   "expect": "emergency_stop"
+  },
+  {
+   "id": "en_US_ryan_medium_17",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Start the packer.",
+   "expect": "start:packer"
+  },
+  {
+   "id": "en_US_ryan_medium_18",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Stop station three.",
+   "expect": "stop:station=3"
+  },
+  {
+   "id": "en_US_ryan_medium_19",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Switch to red boxes and start the line.",
+   "expect": "product:red boxes; start:the line"
+  },
+  {
+   "id": "en_US_ryan_medium_20",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Set the speed to eighty percent.",
+   "expect": "set_speed:speed=80"
+  },
+  {
+   "id": "en_US_ryan_medium_21",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Restart the conveyor.",
+   "expect": "start:conveyor"
+  },
+  {
+   "id": "en_US_ryan_medium_22",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Go faster.",
+   "expect": "faster"
+  },
+  {
+   "id": "en_US_ryan_medium_23",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Line status.",
+   "expect": "status"
+  },
+  {
+   "id": "en_US_ryan_medium_24",
+   "voice": "en_US-ryan-medium",
+   "group": "command",
+   "text": "Clear the fault.",
+   "expect": "reset:fault"
+  },
+  {
+   "id": "en_US_ryan_medium_25",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The line was stopped yesterday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_26",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "We need to stop by the store.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_27",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The press conference starts at noon.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_28",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "This is an emergency exit.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_29",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The robot arm is broken.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_30",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Stop everything you are doing and listen.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_31",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "I like the red boxes.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_32",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The conveyor belt is long.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_33",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Our speed of delivery is great.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_34",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "She started a new job on Monday.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_35",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The alarm clock woke me up.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_36",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The station is closed for repairs.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_37",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Blue is my favourite colour.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_38",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "He runs every morning.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_39",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The production of films is costly.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_40",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Faster cars are expensive.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_41",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "They reset their passwords often.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_42",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The packer arrived late today.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_43",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "How many people came to the party?",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_44",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "Let's start the meeting.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_45",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "We switched to a new supplier.",
+   "expect": null
+  },
+  {
+   "id": "en_US_ryan_medium_46",
+   "voice": "en_US-ryan-medium",
+   "group": "near_miss",
+   "text": "The press is printing the newspaper.",
+   "expect": null
+  }
+ ]
+}

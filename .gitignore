@@ -1,0 +1,24 @@
+# build outputs
+build/
+build_*/
+managed_components/
+dependencies.lock
+sdkconfig
+sdkconfig.old
+
+# the model (downloaded by models/download.py), the test sets (tools/eval/get_librispeech.py)
+models/*.bin
+models/*.part
+/data/
+
+# test outputs
+**/logs/
+firmwares/*/debug/tests/shots/
+firmwares/*/debug/tests/phrases/clips/
+firmwares/*/debug/tests/demos/*/clips/
+firmwares/*/debug/tests/demos/*/score.txt
+firmwares/*/debug/pc/transcripts/
+
+# Python
+__pycache__/
+*.pyc

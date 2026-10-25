@@ -1,0 +1,12 @@
+{
+  "name": "esp32-pie-asr",
+  "version": "dev",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32-P4",
+      "chipVariant": "rev300",
+      "parts": [{ "path": "voice_control.bin", "offset": 0 }]
+    }
+  ]
+}
