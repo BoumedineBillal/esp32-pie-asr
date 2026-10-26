@@ -8,6 +8,10 @@ The model is [Kroko](https://huggingface.co/Banafo/Kroko-ASR) (Banafo), a 65.7M-
 transducer, with its weights brought from 71 MB to 26.65 MB in 2 and 4 bits. The weights are on Hugging Face:
 [BoumedineBillal/esp32-pie-asr-kroko-en](https://huggingface.co/BoumedineBillal/esp32-pie-asr-kroko-en).
 
+<p align="center">
+  <a href="https://youtu.be/oe-2MowdsSs"><img src="assets/video-thumbnail.png" width="480" alt="Video: live speech recognition on the ESP32-P4"></a>
+</p>
+
 | | |
 |---|---|
 | Accuracy | LibriSpeech test-clean **4.34 %** WER, test-other **10.26 %** (beam search, 4 hypotheses) |
