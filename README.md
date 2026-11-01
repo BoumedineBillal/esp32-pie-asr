@@ -4,6 +4,7 @@
 [![Release](https://img.shields.io/github/v/release/BoumedineBillal/esp32-pie-asr?color=blue)](https://github.com/BoumedineBillal/esp32-pie-asr/releases/latest)
 [![Firmware build](https://github.com/BoumedineBillal/esp32-pie-asr/actions/workflows/firmware.yml/badge.svg)](https://github.com/BoumedineBillal/esp32-pie-asr/actions/workflows/firmware.yml)
 [![Weights on Hugging Face](https://img.shields.io/badge/Weights-Hugging_Face-ffcc4d?logo=huggingface)](https://huggingface.co/BoumedineBillal/esp32-pie-asr-kroko-en)
+[![Paper on arXiv](https://img.shields.io/badge/Paper-arXiv_2610.38739-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.38739)
 
 **Live English speech recognition on the ESP32-P4.** Open vocabulary, streaming, faster than real time, on the
 microcontroller alone: the board's microphone in, the words on its screen as you speak. No cloud, no neural
